@@ -2,17 +2,22 @@ import React from "react";
 import "./App.scss";
 
 import HeaderLogo from "./HeaderLogo";
-import Footer from "../src/components/footer/Footer";
 import AppRouter from "./AppRouter";
+import Footer from "../src/components/footer/Footer";
 
 const App = () => {
   return (
     <div>
       {/* Il faut faire 
       le reste du header !  */}
-      <HeaderLogo />
-      <AppRouter />
-      <Footer />
+      <div className="Nanana">
+        <HeaderLogo />
+        <AppRouter />
+      </div>
+
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 };

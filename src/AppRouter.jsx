@@ -8,7 +8,7 @@ import About from "./About";
 const AppRouter = () => {
   return (
     <Router>
-      <NavBar />
+    <NavBar /> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

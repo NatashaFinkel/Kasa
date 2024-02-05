@@ -1,3 +1,35 @@
+/* 
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+*/
+body {
+  padding: 45px 100px 0px;
+  margin: 0;
+  font-family: Montserrat;
+  font-size: 24px;
+}
+
+ul {
+  gap: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.full-width {
+  width: 100%;
+}
+
 .App {
   text-align: center;
 }
@@ -32,11 +64,12 @@
   justify-content: center;
 }
 
-.footer-display {
+/* .footer-display {
   max-width: 100%;
-  width: 100%;
+  width: 109%;
   box-sizing: border-box;
   margin: 0 auto;
   position: relative;
   bottom: 0;
-}/*# sourceMappingURL=App.css.map */
+  left: -108px;
+} *//*# sourceMappingURL=App.css.map */

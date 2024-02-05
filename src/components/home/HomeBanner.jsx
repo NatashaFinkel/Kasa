@@ -3,7 +3,7 @@ import homeBannerImg from "./homeBanner.png";
 function HomeBanner() {
   return (
     <div>
-      <img src={homeBannerImg} alt="bannière de la page d'accueil"></img>;
+      <img src={homeBannerImg}className="full-width" alt="bannière de la page d'accueil"></img>
     </div>
   );
 }

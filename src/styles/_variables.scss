@@ -3,8 +3,31 @@ $primary-display: flex;
 
 // Position
 $primary-position: center;
+$secondary-position: relative;
 
 // Colors
 $primary-color: rgba(255, 255, 255, 1);
 $secondary-color: rgba(255, 96, 96, 1);
 $tertiary-color: rgba(246, 246, 246, 0.45);
+
+// Paddings
+$body-padding: 45px 100px 0px;
+
+// Width
+$full-size: 100%;
+
+// Box-sizing
+$border-box: border-box;
+
+// Font
+$primary-font: Montserrat;
+
+$primary-font-size: 24px;
+
+/* 
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+*/

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import NavBar from "./NavBar";
 import Home from "./components/home/Home";
-import About from "./About";
+import About from "./components/about/About";
 
 const AppRouter = () => {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
-import "./index.css";
+import "./App.scss";
 
 import HeaderLogo from "./HeaderLogo";
-import Footer from "./Footer";
+import Footer from "../src/components/footer/Footer";
 import AppRouter from "./AppRouter";
 
 const App = () => {

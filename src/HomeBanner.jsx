@@ -1,5 +1,4 @@
 import homeBannerImg from "./homeBanner.png";
-import "./index.css";
 
 function HomeBanner() {
   return (

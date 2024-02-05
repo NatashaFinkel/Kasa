@@ -31,12 +31,3 @@
   display: flex;
   justify-content: center;
 }
-
-.footer-display {
-  max-width: 100%;
-  width: 100%;
-  box-sizing: border-box;
-  margin: 0 auto;
-  position: relative;
-  bottom: 0;
-}/*# sourceMappingURL=App.css.map */

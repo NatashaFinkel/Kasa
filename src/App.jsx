@@ -3,7 +3,7 @@ import "./App.scss";
 
 import HeaderLogo from "./HeaderLogo";
 import AppRouter from "./AppRouter";
-import Footer from "../src/components/footer/Footer";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (

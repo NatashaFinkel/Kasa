@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.scss";
 
-import HeaderLogo from "./HeaderLogo";
+import HeaderLogo from "./components/header/HeaderLogo";
 import AppRouter from "./AppRouter";
 import Footer from "./components/footer/Footer";
 

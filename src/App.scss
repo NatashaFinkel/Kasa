@@ -2,7 +2,6 @@
 //  à tout le code.
 
 @import "./styles/variables";
-//@import "./styles/mixin";
 
 body {
   margin: 0;
@@ -46,10 +45,6 @@ a {
   justify-content: center;
 }
 
-footer {
-  @import "./styles/mixin";
-}
-
 .footer-display {
   width: $full-size;
   box-sizing: $border-box;
@@ -58,10 +53,11 @@ footer {
   bottom: 0;
 }
 
-.centered {
+/* .centered {
   display: flex;
   justify-content: center;
 }
+ */
 
 //  Ecran : desktop.
 @media screen and (max-width: 1440px) {

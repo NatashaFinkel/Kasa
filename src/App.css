@@ -55,11 +55,11 @@ a {
   bottom: 0;
 }
 
-.centered {
+/* .centered {
   display: flex;
   justify-content: center;
 }
-
+ */
 @media screen and (max-width: 1440px) {
   body {
     background-color: rgb(244, 169, 169);

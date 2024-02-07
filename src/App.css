@@ -61,9 +61,6 @@ a {
 }
 
 @media screen and (max-width: 425px) {
-  body {
-    background-color: rgb(233, 231, 231);
-  }
   .main-padding {
     padding: 25px;
   }

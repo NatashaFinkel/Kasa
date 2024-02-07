@@ -1,4 +1,4 @@
-import homeBannerImg from "./homeBanner.png";
+import homeBannerImg from "../../assets/homeBanner.png";
 
 function HomeBanner() {
   return (

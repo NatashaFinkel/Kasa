@@ -1,4 +1,3 @@
-import "./_footer.scss";
 import FooterImg from "./D_Footer.png";
 
 function Footer() {

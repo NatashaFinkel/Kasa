@@ -58,22 +58,15 @@ a {
   bottom: 0;
 }
 
-//  Ecran : desktop.
-@media screen and (max-width: 1440px) {
+//  Ecran : ordinateur et tablette.
+@media screen and (max-width: 1300px) {
   body {
     background-color: rgb(244, 169, 169);
   }
 }
 
-//  Ecran : tablette.
-@media screen and (max-width: 768px) {
-  body {
-    background-color: rgb(196, 229, 196);
-  }
-}
-
 //  Ecran : téléphone portable.
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 480px) {
   body {
     background-color: rgb(233, 231, 231);
   }

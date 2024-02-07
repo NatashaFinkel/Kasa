@@ -12,6 +12,13 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 35px;
+  align-items: center;
+}
+
+.logo-kasa {
+  width: 45%;
+  max-width: 210px;
+  height: auto;
 }
 
 ul {
@@ -53,20 +60,20 @@ a {
   bottom: 0;
 }
 
-@media screen and (max-width: 1300px) {
-  body {
-    background-color: rgb(244, 169, 169);
-  }
-}
-@media screen and (max-width: 634px) {
+@media screen and (max-width: 425px) {
   body {
     background-color: rgb(233, 231, 231);
   }
-  .logo-kasa {
-    width: 145px;
-    height: 45px;
-  }
   .main-padding {
     padding: 25px;
+  }
+  ul {
+    padding: 0px;
+    margin: 0px;
+    gap: 10px;
+  }
+  nav a {
+    text-transform: uppercase;
+    font-size: 12px;
   }
 }/*# sourceMappingURL=App.css.map */

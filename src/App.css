@@ -62,4 +62,11 @@ a {
   body {
     background-color: rgb(233, 231, 231);
   }
+  .logo-kasa {
+    width: 145px;
+    height: 45px;
+  }
+  .main-padding {
+    padding: 25px;
+  }
 }/*# sourceMappingURL=App.css.map */

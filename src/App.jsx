@@ -1,17 +1,13 @@
 import React from "react";
 import "./App.scss";
 
-import HeaderLogo from "./components/header/HeaderLogo";
 import AppRouter from "./AppRouter";
 import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
     <div>
-      {/* Il faut faire 
-      le reste du header !  */}
       <div className="Nanana">
-        <HeaderLogo />
         <AppRouter />
       </div>
 

@@ -14,6 +14,11 @@ body {
   padding: $body-padding;
 }
 
+.header-display {
+  display: flex;
+  justify-content: space-between;
+}
+
 ul {
   gap: 20px;
 }

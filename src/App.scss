@@ -1,12 +1,10 @@
 //  C'est pour les styles qui sont communs
-//  À tout le code.
-
+//  à tout le code.
 
 @import "./styles/variables";
 //@import "./styles/mixin";
 
 body {
-
   margin: 0;
   font-family: $primary-font;
   font-size: $primary-font-size;
@@ -15,6 +13,7 @@ body {
 .Nanana {
   padding: $body-padding;
 }
+
 ul {
   gap: 20px;
 }
@@ -23,17 +22,32 @@ li {
   list-style-type: none;
 }
 
-a{
-  color: black;
+a {
+  color: $primary-text-color;
   text-decoration: none;
   font-weight: 500;
 }
 
 .full-width {
   width: 100%;
+  width: $full-size;
 }
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
 footer {
   @import "./styles/mixin";
+}
+
+.footer-display {
+  width: $full-size;
+  box-sizing: $border-box;
+  margin: 0 auto;
+  position: $secondary-position;
+  bottom: 0;
 }
 
 .App {
@@ -69,6 +83,27 @@ footer {
 .centered {
   display: flex;
   justify-content: center;
+}
+
+//  Ecran : desktop.
+@media screen and (max-width: 1440px) {
+  body {
+    background-color: rgb(244, 169, 169);
+  }
+}
+
+//  Ecran : tablette.
+@media screen and (max-width: 768px) {
+  body {
+    background-color: rgb(196, 229, 196);
+  }
+}
+
+//  Ecran : téléphone portable.
+@media screen and (max-width: 425px) {
+  body {
+    background-color: rgb(233, 231, 231);
+  }
 }
 
 /* .footer-display {

@@ -37,6 +37,10 @@ a {
   font-weight: 500;
 }
 
+.active {
+  text-decoration: underline;
+}
+
 .full-width {
   width: 100%;
   width: 100%;

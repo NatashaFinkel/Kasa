@@ -1,0 +1,10 @@
+.gallery-container {
+  background-color: rgba(246, 246, 246, 1);
+  background-color: pink;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 300px;
+  width: 300px;
+  gap: 10px;
+  padding: 10px;
+}

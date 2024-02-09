@@ -2,6 +2,7 @@ import React from "react";
 import HomeBanner from "../components/home/HomeBanner";
 
 import GalleryContainer from "../components/gallery/GalleryContainer";
+import Card from "../components/gallery/Card";
 
 function Home() {
   return (
@@ -10,8 +11,9 @@ function Home() {
         <HomeBanner />
       </div>
 
-      <div className="gallery-container">
+      <div>
         <GalleryContainer />
+        <Card />
       </div>
     </div>
   );

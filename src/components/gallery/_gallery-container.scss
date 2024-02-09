@@ -1,13 +1,37 @@
+@import "../../styles/variables";
+
 .gallery-container {
+  margin-top: 43px;
   background-color: rgba(246, 246, 246, 1);
-  background-color: pink;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  padding: 10px;
+  justify-items: center;
+  gap: 20px;
+  padding: 40px;
+  border-radius: 25px;
 }
 
 .card {
   display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 96, 96, 1);
   border: 1px solid black;
+  max-width: 340px;
+  min-width: 150px;
+  width: -webkit-fill-available;
+}
+
+.house-cover {
+  height: 78%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.gallery-text {
+  margin: 0px;
+  padding-left: 20px;
+  font-size: 12px;
 }

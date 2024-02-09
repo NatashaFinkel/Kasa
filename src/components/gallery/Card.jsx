@@ -6,7 +6,14 @@ function Card() {
     <div className="gallery-container">
       {Houses.map((house) => (
         <div className="card" key={house.id}>
-          {house.title}
+          <img
+            src={house.cover}
+            className="house-cover"
+            alt="Appartement"
+          ></img>
+          <div>
+            <p className="gallery-text">{house.title}</p>
+          </div>
         </div>
       ))}
     </div>

@@ -2,6 +2,7 @@
 
 .thumbnail-container {
   margin-top: 43px;
+  margin: 43px 0px 50px;
   background-color: rgba(246, 246, 246, 1);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -15,8 +16,8 @@
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  border: 1px solid rgba(255, 96, 96, 1);
   border: 1px solid black;
+  background-color: $primary-color;
   max-width: 340px;
   min-width: 150px;
   width: -webkit-fill-available;
@@ -34,4 +35,30 @@
   margin: 0px;
   padding-left: 20px;
   font-size: 12px;
+}
+
+//  Ecran : téléphone portable.
+@media screen and (max-width: 768px) {
+  .thumbnail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0px;
+    // margin-top: 20px;
+    margin: 20px 0px;
+  }
+
+  .thumbnail {
+    max-width: 723px;
+    max-height: 300px;
+  }
+
+  .house-cover {
+    max-height: 250px;
+  }
+
+  .thumbnail-text {
+    font-size: 18px;
+  }
 }

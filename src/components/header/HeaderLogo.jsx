@@ -1,4 +1,4 @@
-import image from "../../assets/logo1.png";
+import image from "../../assets/logo-kasa.png";
 
 function HeaderLogo() {
   return <img src={image} className="logo-kasa" alt="logo"></img>;

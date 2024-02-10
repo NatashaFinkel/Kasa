@@ -1,7 +1,7 @@
 import React from "react";
 import HomeBanner from "../components/home/HomeBanner";
 
-import Thumbnail from "../components/home/Thumbnail";
+import Card from "../components/home/Card";
 
 function Home() {
   return (
@@ -11,7 +11,7 @@ function Home() {
       </div>
 
       <div>
-        <Thumbnail />
+        <Card />
       </div>
     </div>
   );

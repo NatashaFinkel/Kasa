@@ -1,20 +1,20 @@
 import React from "react";
 import Houses from "../../houses.json";
-import "./_thumbnail.scss";
+import "./_card.scss";
 
-function Thumbnail() {
+function Card() {
   return (
-   <div className="thumbnail-container"> 
+   <div className="card-container"> 
 
       {Houses.map((house) => (
-        <div className="thumbnail" key={house.id}>
+        <div className="card" key={house.id}>
           <img
             src={house.cover}
             className="house-cover"
             alt="Appartement"
           ></img>
           <div>
-            <p className="thumbnail-text">{house.title}</p>
+            <p className="card-text">{house.title}</p>
           </div>
         </div>
       ))}
@@ -22,4 +22,4 @@ function Thumbnail() {
   );
 }
 
-export default Thumbnail;
+export default Card;

@@ -1,6 +1,6 @@
 @import "../../styles/variables";
 
-.thumbnail-container {
+.card-container {
   margin-top: 43px;
   margin: 43px 0px 50px;
   background-color: rgba(246, 246, 246, 1);
@@ -12,7 +12,7 @@
   border-radius: 25px;
 }
 
-.thumbnail {
+.card {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -31,7 +31,7 @@
   border-bottom-right-radius: 0px;
 }
 
-.thumbnail-text {
+.card-text {
   margin: 0px;
   padding-left: 20px;
   font-size: 12px;
@@ -39,7 +39,7 @@
 
 //  Ecran : téléphone portable.
 @media screen and (max-width: 768px) {
-  .thumbnail-container {
+  .card-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,7 +49,7 @@
     margin: 20px 0px;
   }
 
-  .thumbnail {
+  .card {
     max-width: 723px;
     max-height: 300px;
   }
@@ -58,7 +58,7 @@
     max-height: 250px;
   }
 
-  .thumbnail-text {
+  .card-text {
     font-size: 18px;
   }
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import AboutBanner from "../components/about/AboutBanner";
+import AboutBanner from "../components/aboutBanner/AboutBanner";
 
 function About() {
   return (

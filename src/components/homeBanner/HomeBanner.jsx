@@ -1,14 +1,8 @@
 import homeBannerImg from "../../assets/homeBanner.png";
-import "../homeBanner/_homeBanner.scss";
+import Banner from "../banner/Banner";
 
 function HomeBanner() {
-  return (
-    <img
-      src={homeBannerImg}
-      className="home-banner"
-      alt="bannière de la page d'accueil"
-    ></img>
-  );
+  return <Banner className="banner" image={homeBannerImg} />;
 }
 
 export default HomeBanner;

@@ -1,7 +1,8 @@
-import aboutBannerImg from "../../assets/aboutBanner.png"
+import aboutBannerImg from "../../assets/aboutBanner.png";
+import Banner from "../banner/Banner";
 
 function AboutBanner() {
-  return <img src={aboutBannerImg} className="full-width" alt="bannière de la page À propos"></img>;
+  return <Banner className="banner" image={aboutBannerImg} />;
 }
 
 export default AboutBanner;

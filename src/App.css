@@ -53,13 +53,14 @@ a {
 
 .footer-display {
   width: 100%;
+  min-height: 72px;
   box-sizing: border-box;
   margin: 0 auto;
   position: relative;
   bottom: 0;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .main-padding {
     padding: 25px;
   }

@@ -1,7 +1,6 @@
 import React from "react";
-import HomeBanner from "../components/home/HomeBanner";
-
-import Card from "../components/home/Card";
+import HomeBanner from "../components/homeBanner/HomeBanner";
+import Card from "../components/cards/Card";
 
 function Home() {
   return (

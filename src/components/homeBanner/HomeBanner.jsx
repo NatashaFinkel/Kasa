@@ -1,5 +1,5 @@
 import homeBannerImg from "../../assets/homeBanner.png";
-import "../home/_homeBanner.scss";
+import "../homeBanner/_homeBanner.scss";
 
 function HomeBanner() {
   return (

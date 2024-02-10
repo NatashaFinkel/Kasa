@@ -4,8 +4,7 @@ import "./_card.scss";
 
 function Card() {
   return (
-   <div className="card-container"> 
-
+    <div className="card-container">
       {Houses.map((house) => (
         <div className="card" key={house.id}>
           <img

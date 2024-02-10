@@ -1,8 +1,7 @@
 import React from "react";
 import HomeBanner from "../components/home/HomeBanner";
 
-import GalleryContainer from "../components/gallery/GalleryContainer";
-import Card from "../components/gallery/Card";
+import Thumbnail from "../components/home/Thumbnail";
 
 function Home() {
   return (
@@ -12,8 +11,7 @@ function Home() {
       </div>
 
       <div>
-        <GalleryContainer />
-        <Card />
+        <Thumbnail />
       </div>
     </div>
   );

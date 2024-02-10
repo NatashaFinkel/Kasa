@@ -1,6 +1,6 @@
 @import "../../styles/variables";
 
-.gallery-container {
+.thumbnail-container {
   margin-top: 43px;
   background-color: rgba(246, 246, 246, 1);
   display: grid;
@@ -11,7 +11,7 @@
   border-radius: 25px;
 }
 
-.card {
+.thumbnail {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -30,7 +30,7 @@
   border-bottom-right-radius: 0px;
 }
 
-.gallery-text {
+.thumbnail-text {
   margin: 0px;
   padding-left: 20px;
   font-size: 12px;

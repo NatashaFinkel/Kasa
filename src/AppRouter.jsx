@@ -6,6 +6,8 @@ import NavBar from "./components/navBar/NavBar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 
+import Error from "./pages/Error";
+
 const AppRouter = () => {
   return (
     <Router>
@@ -17,6 +19,7 @@ const AppRouter = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         {/* Il faudra mettre la page Erreur 404 ici ! */}
+        <Route path="*" element={<Error />} />
       </Routes>
     </Router>
   );

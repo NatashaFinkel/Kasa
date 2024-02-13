@@ -21,9 +21,7 @@ body {
 }
 
 .logo-kasa {
-  width: 45%;
-  max-width: 210px;
-  height: auto;
+  max-width: 100px;
 }
 
 ul {
@@ -31,6 +29,8 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  margin: 0px;
+  padding: 0px;
 }
 
 li {
@@ -41,6 +41,7 @@ a {
   color: $primary-text-color;
   text-decoration: none;
   font-weight: 500;
+  font-size: 15px;
 }
 
 .active {
@@ -66,7 +67,7 @@ a {
 }
 
 //  Ecran : téléphone portable.
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 425px) {
   .main-padding {
     padding: 25px;
   }

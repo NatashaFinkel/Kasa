@@ -14,4 +14,15 @@
 .error-status {
   color: $secondary-color;
   margin: $primary-margin 0px;
+  font-size: 29px;
+}
+
+.get-back-to-home-page {
+  margin-bottom: $primary-margin;
+}
+
+.get-back-to-home-page {
+  a {
+    text-decoration: underline;
+  }
 }

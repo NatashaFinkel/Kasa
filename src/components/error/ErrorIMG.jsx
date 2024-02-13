@@ -1,7 +1,8 @@
 import errorImg from "../../assets/error-404-img.png";
+import "../error/_error.scss";
 
 function ErrorImage() {
-  return <img src={errorImg} alt="Erreur 404"></img>;
+  return <img src={errorImg} className="error-img" alt="Erreur 404"></img>;
 }
 
 export default ErrorImage;

@@ -1,5 +1,6 @@
 import ErrorIMG from "../components/error/ErrorIMG";
 import ErrorStatus from "../components/error/errorStatus";
+import GetBackFromErrorPage from "../components/error/BackFromErrorPage";
 
 function Error() {
   return (
@@ -9,6 +10,10 @@ function Error() {
       </div>
       <div>
         <ErrorStatus />
+      </div>
+
+      <div className="get-back-to-home-page">
+        <GetBackFromErrorPage />
       </div>
     </div>
   );

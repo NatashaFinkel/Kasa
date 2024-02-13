@@ -73,4 +73,7 @@ a {
     text-transform: uppercase;
     font-size: 12px;
   }
+  .footer-display {
+    min-height: 110px;
+  }
 }/*# sourceMappingURL=App.css.map */

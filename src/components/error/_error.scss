@@ -26,3 +26,23 @@
     text-decoration: underline;
   }
 }
+
+//  Ecran : téléphone portable.
+@media screen and (max-width: 767px) {
+  .error-img {
+    min-height: 65px;
+    max-height: 90px;
+  }
+
+  .error-status {
+    font-size: 18px;
+    margin: $secondary-margin 0px;
+  }
+
+  .get-back-to-home-page {
+    margin-bottom: $secondary-margin;
+    a {
+      font-size: 12px;
+    }
+  }
+}

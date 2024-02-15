@@ -5,7 +5,7 @@ function UnfoldingArrow() {
   return (
     <img
       src={unfoldingArrowIMG}
-      className="arrow"
+      className="accordion-arrow"
       alt="Flèche pour déplier le contenu texte associé"
     ></img>
   );

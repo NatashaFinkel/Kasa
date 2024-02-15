@@ -5,7 +5,7 @@ function FoldingArrow() {
   return (
     <img
       src={foldingArrowIMG}
-      className="arrow"
+      className="accordion-arrow"
       alt="Flèche pour replier le contenu texte associé"
     ></img>
   );

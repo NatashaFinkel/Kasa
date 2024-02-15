@@ -1,0 +1,41 @@
+@import "../../styles/variables";
+
+.about-page-main-content {
+  display: $primary-display;
+  justify-content: center;
+}
+
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 80%;
+  justify-content: space-between;
+  margin: 80px 0px;
+}
+
+.accordion {
+  height: 30px;
+  background-color: $secondary-color;
+
+  font-weight: 500;
+  padding: 10px 20px 10px 15px;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion p {
+  color: $primary-color;
+  margin: 0px;
+}
+
+.arrow {
+  width: 32px;
+  height: 32px;
+}
+
+.accordion-text {
+  background-color: rgba(246, 246, 246, 1);
+}

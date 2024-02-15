@@ -1,27 +1,27 @@
 import "./_accordion.scss";
-import ArrowImage from "./AccordionIMG";
+import UnfoldingArrow from "./UnfoldingArrow";
 
 function Accordion() {
   return (
     <div className="accordion-container">
       <div className="accordion">
         <p>Fiabilité</p>
-        <ArrowImage />
+        <UnfoldingArrow />
       </div>
 
       <div className="accordion">
         <p>Respect</p>
-        <ArrowImage />
+        <UnfoldingArrow />
       </div>
 
       <div className="accordion">
         <p>Service</p>
-        <ArrowImage />
+        <UnfoldingArrow />
       </div>
 
       <div className="accordion">
         <p>Sécurité</p>
-        <ArrowImage />
+        <UnfoldingArrow />
       </div>
     </div>
   );

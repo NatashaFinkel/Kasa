@@ -31,13 +31,21 @@
   margin: 0px;
 }
 
+.accordion-btn-arrow{
+  padding: 0px;
+  border: none;
+  background-color: $secondary-color;
+}
+
 .accordion-arrow {
   width: 32px;
   height: 32px;
 }
 
-.accordion-text {
-  background-color: rgba(246, 246, 246, 1);
+.folded-content{
+border: solid 1px black;
+top: -30px;
+position: relative;
 }
 
 //  Ecran : téléphone portable.

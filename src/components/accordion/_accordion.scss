@@ -31,7 +31,7 @@
   margin: 0px;
 }
 
-.accordion-btn-arrow{
+.accordion-btn-arrow {
   padding: 0px;
   border: none;
   background-color: $secondary-color;
@@ -42,11 +42,26 @@
   height: 32px;
 }
 
-.folded-content{
-border: solid 1px black;
-top: -30px;
-position: relative;
+.folded-content {
+  position: relative;
+  background-color: $tertiary-color;
+  display: flex;
 }
+
+.hide-element {
+background-color: violet;
+//display: none;
+}
+
+.show-element {
+  background-color: green;
+ // display: flex;
+}
+
+.text {
+  padding: 15px;
+}
+
 
 //  Ecran : téléphone portable.
 @media screen and (max-width: 425px) {

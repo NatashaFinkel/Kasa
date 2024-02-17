@@ -1,6 +1,7 @@
 import "./_accordion.scss";
-import UnfoldingArrow from "./UnfoldingArrow";
+import ToggleArrow from "./ToggleArrow";
 import CreateHiddenContent from "./HiddenContent";
+
 
 function Accordion() {
   return (
@@ -8,7 +9,7 @@ function Accordion() {
       <div className="my-div">
         <div className="accordion">
           <p>Fiabilité</p>
-          <UnfoldingArrow />
+          <ToggleArrow />
         </div>
         <CreateHiddenContent
           content="Les annonces postées sur Kasa garantissent une fiabilité totale. Les
@@ -20,7 +21,7 @@ function Accordion() {
       <div className="my-div">
         <div className="accordion">
           <p>Respect</p>
-          <UnfoldingArrow />
+          <ToggleArrow />
         </div>
         <CreateHiddenContent
           content="La bienveillance fait partie des valeurs fondatrices de Kasa. Tout
@@ -32,7 +33,7 @@ function Accordion() {
       <div className="my-div">
         <div className="accordion">
           <p>Service</p>
-          <UnfoldingArrow />
+          <ToggleArrow />
         </div>
 
         <CreateHiddenContent
@@ -45,7 +46,7 @@ function Accordion() {
       <div className="my-div">
         <div className="accordion">
           <p>Sécurité</p>
-          <UnfoldingArrow />
+          <ToggleArrow />
         </div>
 
         <CreateHiddenContent

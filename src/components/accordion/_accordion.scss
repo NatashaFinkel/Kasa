@@ -29,56 +29,19 @@
   margin: 0px;
 }
 
-.arrow-div {
-  display: block;
-}
-
 .accordion-btn-arrow {
   padding: 0px;
   border: none;
   background-color: $secondary-color;
 }
 
-.accordion-arrow {
-  width: 32px;
-  height: 32px;
-}
-
-.folded-content {
-  position: relative;
-  //  position: absolute;
-  background-color: $tertiary-color;
-  display: flex;
-  background-color: burlywood;
-}
-.AAAA {
-  direction: rtl;
-  // display: flow;
-}
-.folded-content p {
-  color: black;
-  padding: 15px;
-}
-
-.hide-element {
-  display: none;
-}
-
-.show-element {
-  display: flex;
-}
-
-#show-this {
-  display: flex;
-}
-
-#hide-this {
-  display: none;
-}
 .collaps-content-container {
   display: none;
-  // display: flex;
-  background-color: rosybrown;
+  background-color: $tertiary-color;
+}
+
+.collaps-content-container p {
+  padding: 15px;
 }
 
 //  Ecran : téléphone portable.

@@ -17,11 +17,9 @@
 .accordion {
   height: 30px;
   background-color: $secondary-color;
-
   font-weight: 500;
   padding: 10px 20px 10px 15px;
   border-radius: 5px;
-
   display: flex;
   justify-content: space-between;
 }
@@ -29,6 +27,10 @@
 .accordion p {
   color: $primary-color;
   margin: 0px;
+}
+
+.arrow-div {
+  display: block;
 }
 
 .accordion-btn-arrow {
@@ -44,24 +46,40 @@
 
 .folded-content {
   position: relative;
+  //  position: absolute;
   background-color: $tertiary-color;
   display: flex;
+  background-color: burlywood;
 }
-
-.hide-element {
-background-color: violet;
-//display: none;
+.AAAA {
+  direction: rtl;
+  // display: flow;
 }
-
-.show-element {
-  background-color: green;
- // display: flex;
-}
-
-.text {
+.folded-content p {
+  color: black;
   padding: 15px;
 }
 
+.hide-element {
+  display: none;
+}
+
+.show-element {
+  display: flex;
+}
+
+#show-this {
+  display: flex;
+}
+
+#hide-this {
+  display: none;
+}
+.collaps-content-container {
+  display: none;
+  // display: flex;
+  background-color: rosybrown;
+}
 
 //  Ecran : téléphone portable.
 @media screen and (max-width: 425px) {

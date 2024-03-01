@@ -35,6 +35,10 @@
   background-color: $secondary-color;
 }
 
+.arrow {
+  cursor: pointer;
+}
+
 .collaps-content-container {
   display: none;
   background-color: $tertiary-color;

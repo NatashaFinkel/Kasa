@@ -1,7 +1,7 @@
 import FooterImg from "../../assets/footer.png";
 
-function Footer() {
+function AppFooter() {
   return <img src={FooterImg} className="footer-display" alt="footer"></img>;
 }
 
-export default Footer;
+export default AppFooter;

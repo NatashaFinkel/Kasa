@@ -2,7 +2,7 @@ import { useState } from "react";
 import unfoldingArrowIMG from "../../assets/unfoldingArrow.png";
 import foldingArrowImg from "../../assets/foldingArrow.png";
 
-function Toggle2() {
+function AboutPageArrowAndCollapsedContent() {
   const [currentArrow, setCurrentArrow] = useState(unfoldingArrowIMG);
 
   function ChangeArrowImage(event) {
@@ -99,4 +99,4 @@ function Toggle2() {
   );
 }
 
-export default Toggle2;
+export default AboutPageArrowAndCollapsedContent;

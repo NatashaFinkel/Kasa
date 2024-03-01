@@ -1,5 +1,5 @@
 import "./_accordion.scss";
-import Toggle2 from "./Toggle2";
+import AboutPageArrowAndCollapsedContent from "./AboutPageArrowAndCollapsedContent";
 
 function Accordion2(props) {
 
@@ -7,7 +7,7 @@ function Accordion2(props) {
    <div>
       <div className="accordion">
         <p>{props.text}</p>
-        <Toggle2 />
+        <AboutPageArrowAndCollapsedContent />
       </div>
 
       <div className="collaps-content-container" id={props.id}>

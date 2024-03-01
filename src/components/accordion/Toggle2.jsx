@@ -7,12 +7,12 @@ function Toggle2() {
 
   function ChangeArrowImage(event) {
     const clickedElement = event.target;
-    let fiabiliteHiddenContent = document.getElementById("fiabilite");
-    let respectHiddenContent = document.getElementById("respect");
-    let serviceHiddenContent = document.getElementById("service");
-    let securiteHiddenContent = document.getElementById("securite");
-
     const allArrows = document.querySelectorAll(".arrow");
+
+    const fiabiliteHiddenContent = document.getElementById("fiabilite");
+    const respectHiddenContent = document.getElementById("respect");
+    const serviceHiddenContent = document.getElementById("service");
+    const securiteHiddenContent = document.getElementById("securite");
 
     function addIndexToArrows() {
       allArrows.forEach(function (element, index) {
@@ -20,43 +20,63 @@ function Toggle2() {
       });
     }
 
-    addIndexToArrows();
-
-    function FFF() {
-      let arrow1 = clickedElement.id === "1";
-      let arrow2 = clickedElement.id === "2";
-      let arrow3 = clickedElement.id === "3";
-      let arrow4 = clickedElement.id === "4";
-
-      if (currentArrow === unfoldingArrowIMG && arrow1) {
-        setCurrentArrow(foldingArrowImg);
-        fiabiliteHiddenContent.style.display = "flex";
-      } else if (currentArrow === foldingArrowImg && arrow1) {
-        setCurrentArrow(unfoldingArrowIMG);
-        fiabiliteHiddenContent.style.display = "none";
-      } else if (currentArrow === unfoldingArrowIMG && arrow2) {
-        setCurrentArrow(foldingArrowImg);
-        respectHiddenContent.style.display = "flex";
-      } else if (currentArrow === foldingArrowImg && arrow2) {
-        setCurrentArrow(unfoldingArrowIMG);
-        respectHiddenContent.style.display = "none";
-      } else if (currentArrow === unfoldingArrowIMG && arrow3) {
-        setCurrentArrow(foldingArrowImg);
-        serviceHiddenContent.style.display = "flex";
-      } else if (currentArrow === foldingArrowImg && arrow3) {
-        setCurrentArrow(unfoldingArrowIMG);
-        serviceHiddenContent.style.display = "none";
-      } else if (currentArrow === unfoldingArrowIMG && arrow4) {
-        setCurrentArrow(foldingArrowImg);
-        securiteHiddenContent.style.display = "flex";
-      } else if (currentArrow === foldingArrowImg && arrow4) {
-        setCurrentArrow(unfoldingArrowIMG);
-        securiteHiddenContent.style.display = "none";
-      }
+    function showHiddenContent(hiddenContent) {
+      hiddenContent.style.display = "flex";
     }
 
-    FFF();
+    function hideHiddenContent(hiddenContent) {
+      hiddenContent.style.display = "none";
+    }
 
+    addIndexToArrows();
+
+    let arrow1 = clickedElement.id === "1";
+    let arrow2 = clickedElement.id === "2";
+    let arrow3 = clickedElement.id === "3";
+    let arrow4 = clickedElement.id === "4";
+
+    switch (currentArrow) {
+      case foldingArrowImg: {
+        setCurrentArrow(unfoldingArrowIMG);
+
+        if (arrow1) {
+          hideHiddenContent(fiabiliteHiddenContent);
+        }
+        if (arrow2) {
+          hideHiddenContent(respectHiddenContent);
+        }
+
+        if (arrow3) {
+          hideHiddenContent(serviceHiddenContent);
+        }
+
+        if (arrow4) {
+          hideHiddenContent(securiteHiddenContent);
+        }
+        break;
+      }
+      case unfoldingArrowIMG: {
+        setCurrentArrow(foldingArrowImg);
+
+        if (arrow1) {
+          showHiddenContent(fiabiliteHiddenContent);
+        }
+        if (arrow2) {
+          showHiddenContent(respectHiddenContent);
+        }
+        if (arrow3) {
+          showHiddenContent(serviceHiddenContent);
+        }
+        if (arrow4) {
+          showHiddenContent(securiteHiddenContent);
+        }
+        break;
+      }
+      default: {
+        console.error("ERREUR");
+        break;
+      }
+    }
     return currentArrow;
   }
 

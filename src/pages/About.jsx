@@ -2,8 +2,8 @@ import React from "react";
 
 import AboutBanner from "../components/aboutBanner/AboutBanner";
 
-import Accordion2 from "../components/accordion/Accordion2.jsx";
-import "../components/accordion/_accordion.scss";
+import AccordionAboutPage from "../components/accordion/AccordionAboutPage.jsx";
+import "../components/accordion/_accordionAboutPage.scss";
 
 function About() {
   return (
@@ -14,28 +14,28 @@ function About() {
 
       <div className="about-page-main-content">
         <div className="accordion-container">
-          <Accordion2
+          <AccordionAboutPage
             text="Fiabilité"
             id="fiabilite"
             content={
               "Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes."
             }
           />
-          <Accordion2
+          <AccordionAboutPage
             text="Respect"
             id="respect"
             content={
               "La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."
             }
           />
-          <Accordion2
+          <AccordionAboutPage
             text="Service"
             id="service"
             content={
               "La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."
             }
           />
-          <Accordion2
+          <AccordionAboutPage
             text="Sécurité"
             id="securite"
             content={

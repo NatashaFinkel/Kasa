@@ -1,8 +1,7 @@
-import "./_accordion.scss";
+import "./_accordionAboutPage.scss";
 import AboutPageArrowAndCollapsedContent from "./AboutPageArrowAndCollapsedContent";
 
-function Accordion2(props) {
-
+function AccordionAboutPage(props) {
   return (
    <div>
       <div className="accordion">
@@ -17,4 +16,4 @@ function Accordion2(props) {
   );
 }
 
-export default Accordion2;
+export default AccordionAboutPage;

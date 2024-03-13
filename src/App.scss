@@ -21,7 +21,8 @@ body {
 }
 
 .logo-kasa {
-  max-width: 100px;
+  max-width: 27vw;
+  min-width: 16vw;
 }
 
 ul {
@@ -46,6 +47,10 @@ a {
 
 .active {
   text-decoration: underline;
+}
+
+.header-display a {
+  font-size: 2vw;
 }
 
 .full-width {

@@ -14,7 +14,7 @@ const House = () => {
   return (
     <section>
       <div>
-      <p>Manque le component slideShow</p>
+        <p>Manque le component slideShow</p>
         <p>Manque le component Host</p>
         <p>Manque le component Tag</p>
         <p>Manque le component Rating</p>

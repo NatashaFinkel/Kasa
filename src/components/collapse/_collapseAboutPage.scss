@@ -2,6 +2,7 @@
 
 .about-page-main-content {
   display: $primary-display;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -47,6 +48,44 @@
 .collaps-content-container p {
   padding: 15px;
 }
+
+@keyframes slide-bottom {
+  from {
+    transform: translateY(-20%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+details {
+  width: 100%;
+  margin-bottom: 20px;
+  user-select: none;
+
+  summary {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: white;
+    background-color: $secondary-color;
+    border-radius: 10px;
+    list-style: none;
+    cursor: pointer;
+    padding: 10px;
+    transform: translate(-0%, 20%);
+  }
+}
+
+  details[open] summary .fa-chevron-up {
+    transform: rotate(-180deg);
+  }
+
+  .fa-chevron-up {
+    transition: all 0.3s;
+  }
+
+
 
 //  Ecran : téléphone portable.
 @media screen and (max-width: 425px) {

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HeaderLogo from "./components/header/HeaderLogo";
 import NavBar from "./components/navBar/NavBar";
 import Home from "./pages/Home";
+import House from "./pages/House";
 import About from "./pages/About";
 
 import Error from "./pages/Error";
@@ -17,6 +18,7 @@ const AppRouter = () => {
       </div>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/houses/:id" element={<House />} />
         <Route path="/about" element={<About />} />
         <Route path="*" element={<Error />} />
       </Routes>

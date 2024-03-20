@@ -12,6 +12,7 @@ function About() {
       </div>
 
       <div className="about-page-main-content">
+        <div className="collapse-container">
         <Collapse
           title="Fiabilité"
           hiddenContent="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes."
@@ -43,6 +44,7 @@ function About() {
           additionalDetailsContainer="about-page-title"
           text="about-page-text"
         />
+      </div>
       </div>
     </div>
   );

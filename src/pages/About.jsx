@@ -1,9 +1,8 @@
 import React from "react";
 
 import AboutBanner from "../components/aboutBanner/AboutBanner";
-
-import AccordionAboutPage from "../components/accordion/AccordionAboutPage.jsx";
-import "../components/accordion/_accordionAboutPage.scss";
+import Collapse from "../components/collapse/Collapse.jsx";
+import "../components/collapse/_collapseAboutPage.scss";
 
 function About() {
   return (
@@ -13,36 +12,37 @@ function About() {
       </div>
 
       <div className="about-page-main-content">
-        <div className="accordion-container">
-          <AccordionAboutPage
-            text="Fiabilité"
-            id="fiabilite"
-            content={
-              "Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes."
-            }
-          />
-          <AccordionAboutPage
-            text="Respect"
-            id="respect"
-            content={
-              "La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."
-            }
-          />
-          <AccordionAboutPage
-            text="Service"
-            id="service"
-            content={
-              "La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."
-            }
-          />
-          <AccordionAboutPage
-            text="Sécurité"
-            id="securite"
-            content={
-              "La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes."
-            }
-          />
-        </div>
+        <Collapse
+          title="Fiabilité"
+          hiddenContent="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes."
+          additionalDetails="about-page-details"
+          additionalDetailsContainer="about-page-title"
+          text="about-page-text"
+        />
+
+        <Collapse
+          title="Respect"
+          hiddenContent="La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."
+          additionalDetails="about-page-details"
+          additionalDetailsContainer="about-page-title"
+          text="about-page-text"
+        />
+
+        <Collapse
+          title="Service"
+          hiddenContent="La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."
+          additionalDetails="about-page-details"
+          additionalDetailsContainer="about-page-title"
+          text="about-page-text"
+        />
+
+        <Collapse
+          title="Sécurité"
+          hiddenContent="La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes."
+          additionalDetails="about-page-details"
+          additionalDetailsContainer="about-page-title"
+          text="about-page-text"
+        />
       </div>
     </div>
   );

@@ -2,60 +2,16 @@
 
 .about-page-main-content {
   display: $primary-display;
-  flex-direction: column;
   justify-content: center;
 }
 
-.accordion-container {
+.collapse-container {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 5px;
   width: 80%;
   justify-content: space-between;
   margin: 80px 0px;
-}
-
-.accordion {
-  height: 30px;
-  background-color: $secondary-color;
-  font-weight: 500;
-  padding: 10px 20px 10px 15px;
-  border-radius: 5px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.accordion p {
-  color: $primary-color;
-  margin: 0px;
-}
-
-.accordion-btn-arrow {
-  padding: 0px;
-  border: none;
-  background-color: $secondary-color;
-}
-
-.arrow {
-  cursor: pointer;
-}
-
-.collaps-content-container {
-  display: none;
-  background-color: $tertiary-color;
-}
-
-.collaps-content-container p {
-  padding: 15px;
-}
-
-@keyframes slide-bottom {
-  from {
-    transform: translateY(-20%);
-  }
-  to {
-    transform: translateY(0);
-  }
 }
 
 details {
@@ -66,30 +22,38 @@ details {
   summary {
     display: flex;
     justify-content: space-between;
-    font-size: 13px;
-    color: white;
+    font-size: 18px;
+    color: $primary-color;
     background-color: $secondary-color;
-    border-radius: 10px;
+    border-radius: 5px;
     list-style: none;
     cursor: pointer;
-    padding: 10px;
+    padding: 15px;
     transform: translate(-0%, 20%);
+  }
+  p {
+    background-color: $tertiary-color;
+    margin: 7px 0px;
+    padding: 20px;
   }
 }
 
-  details[open] summary .fa-chevron-up {
-    transform: rotate(-180deg);
-  }
+details[open] summary .fa-chevron-up {
+  transform: rotate(-180deg);
+}
 
-  .fa-chevron-up {
-    transition: all 0.3s;
-  }
-
-
+.fa-chevron-up {
+  transition: all 0.3s;
+}
 
 //  Ecran : téléphone portable.
 @media screen and (max-width: 425px) {
-  .accordion-container {
+  .collapse-container {
     width: 100%;
+  }
+  details {
+    summary {
+      font-size: 13px;
+    }
   }
 }

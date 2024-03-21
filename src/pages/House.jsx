@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import jsonData from "../houses.json";
 import Error from "./Error";
+import Slideshow from "../components/slideShow/SlideShow";
 import Collapse from "../components/collapse/Collapse";
 
 const House = () => {
@@ -13,8 +14,10 @@ const House = () => {
   }
   return (
     <section>
+        <div>
+            <Slideshow pictures={additionalDetails.pictures} />
+        </div>
       <div>
-        <p>Manque le component slideShow</p>
         <p>Manque le component Host</p>
         <p>Manque le component Tag</p>
         <p>Manque le component Rating</p>

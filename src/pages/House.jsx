@@ -14,9 +14,9 @@ const House = () => {
   }
   return (
     <section>
-        <div>
-            <Slideshow pictures={additionalDetails.pictures} />
-        </div>
+      <div>
+        <Slideshow pictures={additionalDetails.pictures} />
+      </div>
       <div>
         <p>Manque le component Host</p>
         <p>Manque le component Tag</p>

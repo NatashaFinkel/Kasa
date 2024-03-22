@@ -16,6 +16,9 @@ const Slideshow = ({ pictures }) => {
     return (
       <div>
         <img src={pictures[current]} alt="Le logement" />
+        <div className="picture-counter">
+            {current + 1}/{allPictures}
+        </div>
       </div>
     );
   }
@@ -48,7 +51,9 @@ const Slideshow = ({ pictures }) => {
         onClick={previousPicture}
         alt="flèche"
       ></img>
-      
+        <div className="picture-counter">
+            {current + 1}/{allPictures}
+        </div>
     </div>
   );
 };

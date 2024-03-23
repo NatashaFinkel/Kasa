@@ -24,11 +24,8 @@
 }
 
 .house-cover {
-  height: -webkit-fill-available;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
 .card-text {
@@ -68,7 +65,6 @@
     width: 130px;
     height: 130px;
   }
-
 }
 
 //  Ecran : téléphone portable.

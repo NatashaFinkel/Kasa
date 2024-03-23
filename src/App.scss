@@ -42,7 +42,6 @@ a {
   color: $primary-text-color;
   text-decoration: none;
   font-weight: 500;
-  font-size: 15px;
 }
 
 .active {
@@ -87,10 +86,8 @@ footer {
   }
 }
 
-
 //  Ecran : tablette.
 @media screen and (max-width: 768px) {
-
   .logo-kasa {
     height: 40px;
     width: 130px;
@@ -103,7 +100,6 @@ footer {
 
 //  Ecran : téléphone portable.
 @media screen and (max-width: 425px) {
-
   .main-padding {
     padding: 25px;
   }

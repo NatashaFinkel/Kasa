@@ -45,7 +45,7 @@ a {
 }
 
 .header-display a {
-  font-size: 2vw;
+  font-size: 36px;
 }
 
 .full-width {
@@ -70,6 +70,11 @@ footer {
   bottom: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .header-display a {
+    font-size: 17px;
+  }
+}
 @media screen and (max-width: 425px) {
   .main-padding {
     padding: 25px;
@@ -79,9 +84,11 @@ footer {
     margin: 0px;
     gap: 10px;
   }
+  .header-display a {
+    font-size: 12px;
+  }
   nav a {
     text-transform: uppercase;
-    font-size: 12px;
   }
   .footer-display {
     min-height: 110px;

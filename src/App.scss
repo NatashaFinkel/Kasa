@@ -50,7 +50,7 @@ a {
 }
 
 .header-display a {
-  font-size: 2vw;
+  font-size: 36px;
 }
 
 .full-width {
@@ -75,6 +75,14 @@ footer {
   bottom: 0;
 }
 
+//  Ecran : tablette.
+@media screen and (max-width: 768px) {
+  .header-display a {
+    font-size: 17px;
+  }
+
+}
+
 //  Ecran : téléphone portable.
 @media screen and (max-width: 425px) {
   .main-padding {
@@ -87,9 +95,12 @@ footer {
     gap: 10px;
   }
 
+  .header-display a {
+    font-size: $secondary-font;
+  }
+
   nav a {
     text-transform: uppercase;
-    font-size: $secondary-font;
   }
 
   .footer-display {

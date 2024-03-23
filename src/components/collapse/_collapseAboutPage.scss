@@ -22,7 +22,9 @@ details {
   summary {
     display: flex;
     justify-content: space-between;
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
     color: $primary-color;
     background-color: $secondary-color;
     border-radius: 5px;
@@ -35,6 +37,7 @@ details {
     background-color: $tertiary-color;
     margin: 7px 0px;
     padding: 20px;
+    font-size: 22px;
   }
 }
 
@@ -46,6 +49,30 @@ details[open] summary .fa-chevron-up {
   transition: all 0.3s;
 }
 
+//  Ecran : ordinateur portable.
+@media screen and (max-width: 1024px) {
+  details {
+    summary {
+      font-size: 20px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
+//  Ecran : tablette.
+@media screen and (max-width: 768px) {
+  details {
+    summary {
+      font-size: 17px;
+    }
+    p {
+      font-size: 17px;
+    }
+  }
+}
+
 //  Ecran : téléphone portable.
 @media screen and (max-width: 425px) {
   .collapse-container {
@@ -53,7 +80,11 @@ details[open] summary .fa-chevron-up {
   }
   details {
     summary {
-      font-size: 13px;
+      font-size: 15px;
+    }
+
+    p {
+      font-size: 15px;
     }
   }
 }

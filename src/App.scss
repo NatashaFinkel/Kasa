@@ -21,8 +21,10 @@ body {
 }
 
 .logo-kasa {
-  max-width: 27vw;
-  min-width: 16vw;
+  /*  max-width: 27vw;
+  min-width: 16vw; */
+  height: 68px;
+  width: 200px;
 }
 
 ul {
@@ -50,7 +52,7 @@ a {
 }
 
 .header-display a {
-  font-size: 36px;
+  font-size: 34px;
 }
 
 .full-width {
@@ -75,16 +77,35 @@ footer {
   bottom: 0;
 }
 
-//  Ecran : tablette.
-@media screen and (max-width: 768px) {
-  .header-display a {
-    font-size: 17px;
+//  Ecran : ordinateur portable.
+@media screen and (max-width: 1024px) {
+  .logo-kasa {
+    height: 48px;
+    width: 160px;
   }
 
+  .header-display a {
+    font-size: 30px;
+  }
+}
+
+
+//  Ecran : tablette.
+@media screen and (max-width: 768px) {
+
+  .logo-kasa {
+    height: 40px;
+    width: 130px;
+  }
+
+  .header-display a {
+    font-size: 23px;
+  }
 }
 
 //  Ecran : téléphone portable.
 @media screen and (max-width: 425px) {
+
   .main-padding {
     padding: 25px;
   }

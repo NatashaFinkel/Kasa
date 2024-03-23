@@ -8,7 +8,12 @@
 }
 
 .error-img {
-  max-height: 80px;
+  height: 150px;
+}
+
+.error-status-div {
+  display: flex;
+  text-align: center;
 }
 
 .error-status {
@@ -27,18 +32,36 @@
   }
 }
 
+//  Ecran : ordinateur portable.
+@media screen and (max-width: 1024px) {
+  .error-img {
+    height: 100px;
+  }
+}
+
+//  Ecran : tablette.
+@media screen and (max-width: 768px) {
+  .error-img {
+    height: 80px;
+  }
+}
 //  Ecran : téléphone portable.
 @media screen and (max-width: 425px) {
   .error-img {
-    min-height: 65px;
+    height: 60px;
   }
 
   .error-status {
     font-size: $tertiary-font;
+    font-size: 20px;
     margin: $secondary-margin 0px;
   }
 
   .get-back-to-home-page {
     margin-bottom: $secondary-margin;
+
+    a {
+      font-size: 20px;
+    }
   }
 }

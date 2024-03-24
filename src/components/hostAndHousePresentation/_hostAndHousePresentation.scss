@@ -1,0 +1,17 @@
+.two-side-by-side-containers {
+    display: flex;
+    justify-content: space-between;
+
+    details{
+        width: 40%;
+    }
+}
+
+
+.house-presentation-container {
+    border: solid purple 1px;
+}
+
+.host-presentation-container {
+    border: solid lightcoral 1px;
+}

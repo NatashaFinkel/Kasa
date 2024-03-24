@@ -19,7 +19,6 @@ details {
   margin-bottom: 20px;
   user-select: none;
 
-
   summary {
     display: flex;
     justify-content: space-between;
@@ -29,7 +28,7 @@ details {
     letter-spacing: 1px;
     color: $primary-color;
     background-color: $secondary-color;
-    border-radius: 5px;
+    border-radius: 10px;
     list-style: none;
     cursor: pointer;
     padding: 15px;

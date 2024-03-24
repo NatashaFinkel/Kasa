@@ -1,23 +1,61 @@
+@import "../../styles/_variables.scss";
+
 .two-side-by-side-containers {
+  display: flex;
+  justify-content: space-between;
+
+  details {
+    width: 40%;
+  }
+
+  .host-presentation-container {
     display: flex;
-    justify-content: space-between;
-
-    details{
-        width: 40%;
-    }
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 40px;
+  }
 }
-
-
 .house-presentation-container {
-    border: solid purple 1px;
+  h1 {
+    color: $secondary-color;
+  }
+}
+.details-container {
+  margin-bottom: 50px;
 }
 
 .host-presentation-container {
-    border: solid lightcoral 1px;
+  width: 40%;
 }
 
-.star-container{
-    display: flex;
-   gap: 5px;
+.second-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
 }
 
+.host-name {
+  color: $secondary-color;
+  font-size: 24px;
+}
+
+.host-picture {
+  /* top: 602px;
+left: 1273px;
+gap: 0px;
+opacity: 0px; */
+
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  // top: 11px;
+  // left: 20px;
+  position: relative;
+  opacity: 0px;
+}
+
+.star-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}

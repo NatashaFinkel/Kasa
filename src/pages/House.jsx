@@ -21,7 +21,7 @@ const House = () => {
 
       <HostAndHousePresentation />
 
-      <div className="two-side-by-side-containers">
+      <div className="two-side-by-side-containers details-container">
         <Collapse
           title={"Description"}
           hiddenContent={additionalDetails.description}

@@ -17,7 +17,7 @@ function HostAndHousePresentation() {
       </div>
 
       <div className="host-presentation-container">
-        <div className="two-side-by-side-containers">
+        <div className="two-side-by-side-containers second-container">
 
           <div className="host-name" alt="identité du propriétaire">
             <p> {additionalDetails.host.name}</p>

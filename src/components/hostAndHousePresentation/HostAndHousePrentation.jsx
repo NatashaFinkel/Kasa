@@ -30,10 +30,7 @@ function HostAndHousePresentation() {
           />
 
         </div>
-
-     {/*    <div className="rating-div"> */}
           <Rating rating={additionalDetails.rating} />
-    {/*     </div> */}
       </div>
     </div>
   );

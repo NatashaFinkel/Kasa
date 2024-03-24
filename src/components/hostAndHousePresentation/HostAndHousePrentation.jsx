@@ -1,5 +1,7 @@
 import { useParams } from "react-router-dom";
 import jsonData from "../../houses.json";
+import Rating from "./Rating";
+
 import "./_hostAndHousePresentation.scss";
 
 function HostAndHousePresentation() {
@@ -28,7 +30,7 @@ function HostAndHousePresentation() {
         </div>
 
         <div className="rating-div">
-          <p>Manque les étoiles ici !!</p>
+          <Rating rating={additionalDetails.rating} />
         </div>
       </div>
     </div>

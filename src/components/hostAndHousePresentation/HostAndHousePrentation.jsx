@@ -18,15 +18,17 @@ function HostAndHousePresentation() {
 
       <div className="host-presentation-container">
         <div className="two-side-by-side-containers">
+
+          <div className="host-name" alt="identité du propriétaire">
+            <p> {additionalDetails.host.name}</p>
+          </div>
+
           <img
             className="host-picture"
             alt="Le propriétaire du logement"
             src={additionalDetails.host.picture}
           />
 
-          <div className="host-name" alt="identité du propriétaire">
-            {additionalDetails.host.name}
-          </div>
         </div>
 
         <div className="rating-div">

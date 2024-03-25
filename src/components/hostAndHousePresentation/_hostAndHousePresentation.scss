@@ -19,9 +19,15 @@
 .house-presentation-container {
   h1 {
     color: $secondary-color;
+    font-weight: 500;
+    margin-bottom: 0px;
   }
 }
 
+.location {
+  margin-top: 0px;
+  margin: 5px 0px 20px 0px;
+}
 .tag-div {
   display: flex;
   gap: 10px;

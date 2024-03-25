@@ -20,6 +20,8 @@
     color: $secondary-color;
     font-weight: 500;
     margin-bottom: 0px;
+    margin-top: 50px;
+    margin: 50px 0px 0px;
   }
 }
 
@@ -68,7 +70,6 @@
   height: 80px;
   border-radius: 50%;
   position: relative;
-  opacity: 0px;
 }
 
 .star-container {
@@ -77,6 +78,55 @@
   gap: 12px;
   position: relative;
   top: 20px;
+}
+//  Ecran : ordinateur portable.
+@media screen and (max-width: 1024px) {
+  .two-side-by-side-containers {
+    details {
+      width: 45%;
+    }
+  }
+  .house-presentation-container {
+    h1 {
+      font-size: 30px;
+    }
+  }
+
+  .location,
+  .host-name {
+    font-size: 18px;
+  }
+
+  .host-picture {
+    width: 60px;
+    height: 60px;
+  }
+
+  .tag {
+    padding: 5px 14px;
+  }
+}
+
+//  Ecran : tablette.
+@media screen and (max-width: 768px) {
+  .house-presentation-container {
+    h1 {
+      font-size: 22px;
+    }
+  }
+
+  .host-picture {
+    width: 50px;
+    height: 50px;
+  }
+  .tag{
+    padding: 3px 9px;
+    width: max-content;
+    font-size: 16px;
+  }
+  .star{
+    font-size: 20px;
+  }
 }
 
 //  Ecran : téléphone portable.
@@ -95,10 +145,10 @@
       width: 100%;
     }
   }
-.host-picture {
-  width: 40px;
-  height: 40px;
-}
+  .host-picture {
+    width: 40px;
+    height: 40px;
+  }
 
   .house-presentation-container {
     h1 {
@@ -106,7 +156,8 @@
     }
   }
 
-  .location, .host-name {
+  .location,
+  .host-name {
     font-size: 14px;
   }
 

@@ -13,8 +13,8 @@
   position: absolute;
   top: 50%;
   z-index: 80;
-  width: 35px;
-  height: 70px;
+  width: 30px;
+  height: 60px;
 }
 
 .left-arrow {
@@ -31,6 +31,19 @@
   color: white;
   left: 50%;
   font-size: 25px;
+}
+
+//  Ecran : tablette.
+@media screen and (max-width: 768px) {
+  .slideShow-img {
+    height: 350px;
+  }
+
+  .left-arrow,
+  .right-arrow {
+    width: 20px;
+    height: 50px;
+  }
 }
 
 //  Ecran : téléphone portable.

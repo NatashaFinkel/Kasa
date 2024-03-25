@@ -13,6 +13,7 @@ const House = () => {
   if (!additionalDetails) {
     return <Error />;
   }
+  
   return (
     <section>
       <div>

@@ -78,3 +78,59 @@
   position: relative;
   top: 20px;
 }
+
+//  Ecran : téléphone portable.
+@media screen and (max-width: 425px) {
+  .two-side-by-side-containers {
+    flex-direction: column;
+
+    .host-presentation-container {
+      flex-direction: row-reverse;
+      width: 100%;
+      align-items: baseline;
+      justify-content: space-between;
+    }
+
+    details {
+      width: 100%;
+    }
+  }
+.host-picture {
+  width: 40px;
+  height: 40px;
+}
+
+  .house-presentation-container {
+    h1 {
+      font-size: 18px;
+    }
+  }
+
+  .location, .host-name {
+    font-size: 14px;
+  }
+
+  .tag {
+    font-size: 10px;
+    padding: 7px 12px;
+    align-items: center;
+    width: max-content;
+  }
+
+  .second-container {
+    flex-direction: row;
+  }
+
+  .star-container {
+    justify-content: flex-start;
+    position: static;
+    gap: 5px;
+  }
+  .star {
+    font-size: 14px;
+  }
+
+  .details-container {
+    margin-bottom: 0px;
+  }
+}

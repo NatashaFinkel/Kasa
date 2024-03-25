@@ -35,6 +35,15 @@
 
 //  Ecran : téléphone portable.
 @media screen and (max-width: 425px) {
+  .slideShow-img {
+    height: 250px;
+  }
+  .left-arrow,
+  .right-arrow {
+    width: 15px;
+    height: 15px;
+  }
+
   .picture-counter {
     display: none;
   }

@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import jsonData from "../../houses.json";
 import Rating from "./Rating";
+import Tags from "./Tags";
 
 import "./_hostAndHousePresentation.scss";
 
@@ -13,7 +14,8 @@ function HostAndHousePresentation() {
       <div className="house-presentation-container">
         <h1 className="title">{additionalDetails.title}</h1>
         <p className="location">{additionalDetails.location}</p>
-        <p>Manque les tags ici !!</p>
+  
+        <Tags tags={additionalDetails.tags} />
       </div>
 
       <div className="host-presentation-container">

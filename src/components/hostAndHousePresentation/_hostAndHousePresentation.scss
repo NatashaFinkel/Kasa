@@ -15,10 +15,27 @@
     gap: 40px;
   }
 }
+
 .house-presentation-container {
   h1 {
     color: $secondary-color;
   }
+}
+
+.tag-div {
+  display: flex;
+  gap: 10px;
+}
+
+.tag {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  border-radius: 15px;
+  padding: 5px 25px;
+  font-size: 20px;
+  color: $primary-color;
+  background-color: $secondary-color;
 }
 .details-container {
   margin-bottom: 50px;

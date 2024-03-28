@@ -83,12 +83,24 @@ details[open] summary .fa-chevron-up {
       width: 78%;
       padding: 8px 18px;
     }
+
+    .hidden-content-list {
+      top: 6px;
+    }
+
     p {
       font-size: 17px;
-      width: 77%;
-      top: -2px;
       position: relative;
     }
+
+    p,
+    .hidden-content-list {
+      width: 77%;
+    }
+  }
+
+  .hidden-content-list li {
+    font-size: 17px;
   }
 }
 

@@ -29,6 +29,7 @@ const House = () => {
         />
         <Collapse
           title={"Équipements"}
+          text={"hidden-content-list"}
           hiddenContent={additionalDetails.equipments}
         />
       </div>

@@ -29,6 +29,7 @@
   margin-top: 0px;
   margin: 5px 0px 20px 0px;
 }
+
 .tag-div {
   display: flex;
   gap: 10px;
@@ -46,6 +47,7 @@
   color: $primary-color;
   background-color: $secondary-color;
 }
+
 .details-container {
   margin: 30px 0px 50px;
 }
@@ -79,6 +81,16 @@
   position: relative;
   top: 20px;
 }
+
+.hidden-content-list {
+  flex-direction: column;
+  background-color: $tertiary-color;
+  padding: 20px;
+  gap: 8px;
+  position: relative;
+  top: 10px;
+}
+
 //  Ecran : ordinateur portable.
 @media screen and (max-width: 1024px) {
   .two-side-by-side-containers {
@@ -105,12 +117,17 @@
   .tag {
     padding: 5px 14px;
   }
+
+  .hidden-content-list {
+    li{
+      font-size: 18px;
+    }
+  }
 }
 
 //  Ecran : tablette.
 @media screen and (max-width: 768px) {
   .house-presentation-container {
-
     h1 {
       font-size: 18px;
     }
@@ -122,7 +139,8 @@
     position: relative;
   }
 
- .location, .host-name{
+  .location,
+  .host-name {
     font-size: 16px;
   }
 
@@ -151,7 +169,7 @@
     top: 14px;
     gap: 7px;
   }
-  .star{
+  .star {
     font-size: 15px;
   }
 }

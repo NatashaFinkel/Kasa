@@ -110,22 +110,49 @@
 //  Ecran : tablette.
 @media screen and (max-width: 768px) {
   .house-presentation-container {
+
     h1 {
-      font-size: 22px;
+      font-size: 18px;
+    }
+  }
+
+  .second-container {
+    gap: 10px;
+    top: 22px;
+    position: relative;
+  }
+
+ .location, .host-name{
+    font-size: 16px;
+  }
+
+  .host-name {
+    p {
+      width: 40px;
+      margin-top: 0px;
     }
   }
 
   .host-picture {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
-  .tag{
-    padding: 3px 9px;
+
+  .tag-div {
+    flex-wrap: wrap;
+  }
+  .tag {
+    padding: 2px 18px;
     width: max-content;
     font-size: 16px;
   }
+
+  .star-container {
+    top: 14px;
+    gap: 7px;
+  }
   .star{
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
@@ -152,13 +179,13 @@
 
   .house-presentation-container {
     h1 {
-      font-size: 18px;
+      font-size: 20px;
     }
   }
 
   .location,
   .host-name {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .tag {
@@ -170,11 +197,14 @@
 
   .second-container {
     flex-direction: row;
+    top: 0px;
   }
 
   .star-container {
     justify-content: flex-start;
     position: static;
+    top: 7px;
+    position: relative;
     gap: 5px;
   }
   .star {

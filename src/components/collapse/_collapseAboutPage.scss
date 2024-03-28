@@ -78,15 +78,16 @@ details[open] summary .fa-chevron-up {
       font-size: 17px;
       height: 17px;
 
-
-    font-size: 12px;
-    height: 12px;
-    width: 78%;
-    padding: 8px 18px;
-
+      font-size: 12px;
+      height: 12px;
+      width: 78%;
+      padding: 8px 18px;
     }
     p {
       font-size: 17px;
+      width: 77%;
+      top: -2px;
+      position: relative;
     }
   }
 }

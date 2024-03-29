@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.scss";
+import "./styles/_app.scss";
 
 import AppRouter from "./AppRouter";
 import AppFooter from "./components/footer/Footer";

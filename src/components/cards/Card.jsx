@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Houses from "../../houses.json";
-import "./_card.scss";
+import "../../styles/_card.scss";
 
 function Card() {
   return (

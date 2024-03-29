@@ -4,7 +4,7 @@ import { useState } from "react";
 import leftArrow from "../../assets/left-arrow.png";
 import rightArrow from "../../assets/right-arrow.png";
 
-import "./_slideShow.scss";
+import "../../styles/_slideShow.scss";
 
 const Slideshow = ({ pictures }) => {
   const [current, setCurrent] = useState(0);

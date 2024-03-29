@@ -3,7 +3,7 @@ import jsonData from "../../houses.json";
 import Rating from "./Rating";
 import Tags from "./Tags";
 
-import "./_hostAndHousePresentation.scss";
+import "../../styles/_hostAndHousePresentation.scss";
 
 function HostAndHousePresentation() {
   const { id } = useParams();

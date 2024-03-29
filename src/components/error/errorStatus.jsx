@@ -1,4 +1,4 @@
-import "../error/_error.scss";
+import "../../styles/_error.scss";
 
 function ErrorStatus() {
   return (

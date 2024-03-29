@@ -2,7 +2,7 @@ import React from "react";
 
 import AboutBanner from "../components/aboutBanner/AboutBanner";
 import Collapse from "../components/collapse/Collapse.jsx";
-import "../components/collapse/_collapse.scss";
+import "../styles/_collapse.scss";
 
 function About() {
   return (

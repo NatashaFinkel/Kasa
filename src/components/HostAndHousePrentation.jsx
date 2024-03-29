@@ -1,3 +1,4 @@
+import React from "react";
 import { useParams } from "react-router-dom";
 import jsonData from "../houses.json";
 import Rating from "./Rating";

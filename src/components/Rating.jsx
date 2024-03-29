@@ -1,3 +1,4 @@
+import React from "react";
 import "../styles/_variables.scss";
 
 const Rating = ({ rating }) => {

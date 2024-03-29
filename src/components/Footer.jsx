@@ -1,3 +1,4 @@
+import React from "react";
 import FooterImg from "../assets/footer.png";
 
 function AppFooter() {

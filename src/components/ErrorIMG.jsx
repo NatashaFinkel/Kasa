@@ -1,3 +1,4 @@
+import React from "react";
 import errorImg from "../assets/error-404-img.png";
 import "../styles/_error.scss";
 

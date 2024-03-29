@@ -1,3 +1,4 @@
+import React from "react";
 import ErrorIMG from "../components/ErrorIMG";
 import ErrorStatus from "../components/ErrorStatus";
 import GetBackFromErrorPage from "../components/BackFromErrorPage";

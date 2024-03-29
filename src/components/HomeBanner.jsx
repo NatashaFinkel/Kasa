@@ -1,3 +1,4 @@
+import React from "react";
 import homeBannerImg from "../assets/homeBanner.png";
 import Banner from "./Banner";
 

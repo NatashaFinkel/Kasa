@@ -1,3 +1,4 @@
+import React from "react";
 import aboutBannerImg from "../assets/aboutBanner.png";
 import Banner from "./Banner.jsx";
 

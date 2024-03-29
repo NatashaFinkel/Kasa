@@ -1,7 +1,7 @@
 import React from "react";
 
-import AboutBanner from "../components/aboutBanner/AboutBanner";
-import Collapse from "../components/collapse/Collapse.jsx";
+import AboutBanner from "../components/AboutBanner.jsx";
+import Collapse from "../components/Collapse.jsx";
 import "../styles/_collapse.scss";
 
 function About() {

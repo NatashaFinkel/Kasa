@@ -1,10 +1,10 @@
 import React from "react";
 import { useState } from "react";
 
-import leftArrow from "../../assets/left-arrow.png";
-import rightArrow from "../../assets/right-arrow.png";
+import leftArrow from "../assets/left-arrow.png";
+import rightArrow from "../assets/right-arrow.png";
 
-import "../../styles/_slideShow.scss";
+import "../styles/_slideShow.scss";
 
 const Slideshow = ({ pictures }) => {
   const [current, setCurrent] = useState(0);
@@ -17,7 +17,7 @@ const Slideshow = ({ pictures }) => {
       <div>
         <img src={pictures[current]} alt="Le logement" />
         <div className="picture-counter">
-            {current + 1}/{allPictures}
+          {current + 1}/{allPictures}
         </div>
       </div>
     );
@@ -44,16 +44,16 @@ const Slideshow = ({ pictures }) => {
         onClick={nextPicture}
         alt="flèche"
       ></img>
-      
+
       <img
         src={leftArrow}
         className="left-arrow"
         onClick={previousPicture}
         alt="flèche"
       ></img>
-        <div className="picture-counter">
-            {current + 1}/{allPictures}
-        </div>
+      <div className="picture-counter">
+        {current + 1}/{allPictures}
+      </div>
     </div>
   );
 };

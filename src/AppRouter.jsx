@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import HeaderLogo from "./components/header/HeaderLogo";
-import NavBar from "./components/navBar/NavBar";
+import HeaderLogo from "./components/HeaderLogo";
+import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import House from "./pages/House";
 import About from "./pages/About";

@@ -1,6 +1,6 @@
-import ErrorIMG from "../components/error/ErrorIMG";
-import ErrorStatus from "../components/error/errorStatus";
-import GetBackFromErrorPage from "../components/error/BackFromErrorPage";
+import ErrorIMG from "../components/ErrorIMG";
+import ErrorStatus from "../components/ErrorStatus";
+import GetBackFromErrorPage from "../components/BackFromErrorPage";
 
 function Error() {
   return (

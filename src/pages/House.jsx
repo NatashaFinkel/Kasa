@@ -2,9 +2,9 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import jsonData from "../houses.json";
 import Error from "./Error";
-import Slideshow from "../components/slideShow/SlideShow";
-import Collapse from "../components/collapse/Collapse";
-import HostAndHousePresentation from "../components/hostAndHousePresentation/HostAndHousePrentation";
+import Slideshow from "../components/SlideShow";
+import Collapse from "../components/Collapse";
+import HostAndHousePresentation from "../components/HostAndHousePrentation";
 
 const House = () => {
   const { id } = useParams();
@@ -13,7 +13,7 @@ const House = () => {
   if (!additionalDetails) {
     return <Error />;
   }
-  
+
   return (
     <section>
       <div>

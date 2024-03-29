@@ -2,7 +2,7 @@ import React from "react";
 import "./styles/_app.scss";
 
 import AppRouter from "./AppRouter";
-import AppFooter from "./components/footer/Footer";
+import AppFooter from "./components/Footer.jsx";
 
 const App = () => {
   return (

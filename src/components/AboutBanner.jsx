@@ -1,5 +1,5 @@
-import aboutBannerImg from "../../assets/aboutBanner.png";
-import Banner from "../banner/Banner";
+import aboutBannerImg from "../assets/aboutBanner.png";
+import Banner from "./Banner.jsx";
 
 function AboutBanner() {
   return <Banner className="banner" image={aboutBannerImg} />;

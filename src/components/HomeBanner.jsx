@@ -1,5 +1,5 @@
 import React from "react";
-import homeBannerImg from "../assets/homeBanner.png";
+import homeBannerImg from "../assets/home-banner.png";
 import Banner from "./Banner";
 
 function HomeBanner() {

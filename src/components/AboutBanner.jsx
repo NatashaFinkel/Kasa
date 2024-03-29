@@ -1,5 +1,5 @@
 import React from "react";
-import aboutBannerImg from "../assets/aboutBanner.png";
+import aboutBannerImg from "../assets/about-banner.png";
 import Banner from "./Banner.jsx";
 
 function AboutBanner() {

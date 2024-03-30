@@ -1,6 +1,4 @@
-//@import "../../styles/_variables.scss";
 @import "./variables.scss";
-
 
 .two-side-by-side-containers {
   display: flex;
@@ -28,8 +26,7 @@
 }
 
 .location {
-  margin-top: 0px;
-  margin: 5px 0px 20px 0px;
+  margin: 5px 0px $medium-size 0px;
 }
 
 .tag-div {
@@ -45,7 +42,7 @@
   width: fit-content;
   border-radius: 15px;
   padding: 5px 25px;
-  font-size: 20px;
+  font-size: $medium-size;
   color: $primary-color;
   background-color: $secondary-color;
 }
@@ -66,7 +63,8 @@
 
 .host-name {
   color: $secondary-color;
-  font-size: 24px;
+  font-size: $primary-font-size;
+  font-size: $primary-font-size;
 }
 
 .host-picture {
@@ -81,15 +79,15 @@
   justify-content: flex-end;
   gap: 12px;
   position: relative;
-  top: 20px;
+  top: $medium-size;
 }
 
 .hidden-content-list {
   flex-direction: column;
   background-color: $tertiary-color;
-  padding: 20px;
+  padding: $medium-size;
   gap: 8px;
-  position: relative;
+  position: $secondary-position;
   top: 10px;
 }
 
@@ -199,7 +197,7 @@
 
   .house-presentation-container {
     h1 {
-      font-size: 20px;
+      font-size: $medium-size;
     }
   }
 

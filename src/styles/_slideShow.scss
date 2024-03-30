@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 .slideShow {
   display: flex;
   position: relative;
@@ -42,7 +44,7 @@
 
   .left-arrow,
   .right-arrow {
-    width: 20px;
+    width: $medium-size;
     height: 50px;
   }
 }

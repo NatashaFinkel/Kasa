@@ -2,11 +2,11 @@
 
 .about-page-main-content {
   display: $primary-display;
-  justify-content: center;
+  justify-content: $primary-position;
 }
 
 .collapse-container {
-  display: flex;
+  display: $primary-display;
   flex-direction: column;
   gap: 5px;
   width: 80%;
@@ -15,12 +15,12 @@
 }
 
 details {
-  width: 100%;
-  margin-bottom: 20px;
+  width: $full-size;
+  margin-bottom: $medium-size;
   user-select: none;
 
   summary {
-    display: flex;
+    display: $primary-display;
     justify-content: space-between;
     font-size: 22px;
     height: 22px;
@@ -37,7 +37,7 @@ details {
   p {
     background-color: $tertiary-color;
     margin: 7px 0px;
-    padding: 20px;
+    padding: $medium-size;
     font-size: 22px;
   }
 }
@@ -53,16 +53,16 @@ details[open] summary .fa-chevron-up {
 //  Ecran : ordinateur portable.
 @media screen and (max-width: 1024px) {
   .collapse-container {
-    margin: 20px 0px;
+    margin: $medium-size 0px;
   }
 
   details {
     summary {
-      font-size: 20px;
-      height: 20px;
+      font-size: $medium-size;
+      height: $medium-size;
     }
     p {
-      font-size: 20px;
+      font-size: $medium-size;
     }
   }
 }
@@ -75,8 +75,8 @@ details[open] summary .fa-chevron-up {
 
   details {
     summary {
-      font-size: 17px;
-      height: 17px;
+      font-size: $small-medium-size;
+      height: $small-medium-size;
 
       font-size: 12px;
       height: 12px;
@@ -89,7 +89,7 @@ details[open] summary .fa-chevron-up {
     }
 
     p {
-      font-size: 17px;
+      font-size: $small-medium-size;
       position: relative;
     }
 
@@ -100,14 +100,14 @@ details[open] summary .fa-chevron-up {
   }
 
   .hidden-content-list li {
-    font-size: 17px;
+    font-size: $small-medium-size;
   }
 }
 
 //  Ecran : téléphone portable.
 @media screen and (max-width: 425px) {
   .collapse-container {
-    width: 100%;
+    width: $full-size;
   }
   details {
     summary {

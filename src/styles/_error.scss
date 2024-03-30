@@ -52,8 +52,8 @@
   }
 
   .error-status {
-    font-size: $tertiary-font;
-    font-size: 20px;
+    font-size: 18px;
+    font-size: $medium-size;
     margin: $secondary-margin 0px;
   }
 
@@ -61,7 +61,7 @@
     margin-bottom: $secondary-margin;
 
     a {
-      font-size: 20px;
+      font-size: $medium-size;
     }
   }
 }

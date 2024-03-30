@@ -6,7 +6,7 @@
 body {
   margin: 0;
   font-family: $primary-font;
-  font-size: $primary-font-size;
+  font-size: 24px;
 }
 
 .main-padding {
@@ -26,8 +26,8 @@ body {
 }
 
 ul {
-  gap: $medium-size;
-  display: flex;
+  gap: $big-size;
+  display: $primary-display;
   flex-direction: row;
   justify-content: flex-end;
   margin: 0px;
@@ -52,17 +52,8 @@ a {
   font-size: 34px;
 }
 
-.full-width {
-  width: $full-size;
-}
-
-.centered {
-  display: flex;
-  justify-content: center;
-}
-
 footer {
-  display: flex;
+  display: $primary-display;
 }
 
 .footer-display {
@@ -94,24 +85,24 @@ footer {
   }
 
   .header-display a {
-    font-size: $medium-size;
+    font-size: $big-size;
   }
 }
 
 //  Ecran : téléphone portable.
 @media screen and (max-width: 425px) {
   .main-padding {
-    padding: 25px;
+    padding: $the-biggest-size;
   }
 
   ul {
     padding: 0px;
     margin: 0px;
-    gap: 10px;
+    gap: $the-smallest-size;
   }
 
   .header-display a {
-    font-size: $secondary-font;
+    font-size: $small-size;
   }
 
   nav a {

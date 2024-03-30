@@ -16,7 +16,7 @@
 
 details {
   width: $full-size;
-  margin-bottom: $medium-size;
+  margin-bottom: $big-size;
   user-select: none;
 
   summary {
@@ -28,16 +28,16 @@ details {
     letter-spacing: 1px;
     color: $primary-color;
     background-color: $secondary-color;
-    border-radius: 10px;
+    border-radius: $the-smallest-size;
     list-style: none;
     cursor: pointer;
-    padding: 15px;
+    padding: $medium-size;
     transform: translate(-0%, 20%);
   }
   p {
     background-color: $tertiary-color;
     margin: 7px 0px;
-    padding: $medium-size;
+    padding: $big-size;
     font-size: 22px;
   }
 }
@@ -53,16 +53,16 @@ details[open] summary .fa-chevron-up {
 //  Ecran : ordinateur portable.
 @media screen and (max-width: 1024px) {
   .collapse-container {
-    margin: $medium-size 0px;
+    margin: $big-size 0px;
   }
 
   details {
     summary {
-      font-size: $medium-size;
-      height: $medium-size;
+      font-size: $big-size;
+      height: $big-size;
     }
     p {
-      font-size: $medium-size;
+      font-size: $big-size;
     }
   }
 }
@@ -70,16 +70,15 @@ details[open] summary .fa-chevron-up {
 //  Ecran : tablette.
 @media screen and (max-width: 768px) {
   .collapse-container {
-    margin: 10px 0px;
+    margin: $the-smallest-size 0px;
   }
 
   details {
     summary {
-      font-size: $small-medium-size;
-      height: $small-medium-size;
-
-      font-size: 12px;
-      height: 12px;
+      font-size: $medium-big-size;
+      height: $medium-big-size;
+      font-size: $small-size;
+      height: $small-size;
       width: 78%;
       padding: 8px 18px;
     }
@@ -89,7 +88,7 @@ details[open] summary .fa-chevron-up {
     }
 
     p {
-      font-size: $small-medium-size;
+      font-size: $medium-big-size;
       position: relative;
     }
 
@@ -100,7 +99,7 @@ details[open] summary .fa-chevron-up {
   }
 
   .hidden-content-list li {
-    font-size: $small-medium-size;
+    font-size: $medium-big-size;
   }
 }
 
@@ -111,12 +110,12 @@ details[open] summary .fa-chevron-up {
   }
   details {
     summary {
-      font-size: 15px;
-      height: 15px;
+      font-size: $medium-size;
+      height: $medium-size;
     }
 
     p {
-      font-size: 15px;
+      font-size: $medium-size;
     }
   }
 }

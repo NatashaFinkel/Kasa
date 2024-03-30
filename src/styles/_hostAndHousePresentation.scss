@@ -1,7 +1,7 @@
 @import "./variables.scss";
 
 .two-side-by-side-containers {
-  display: flex;
+  display: $primary-display;
   justify-content: space-between;
 
   details {
@@ -9,7 +9,7 @@
   }
 
   .host-presentation-container {
-    display: flex;
+    display: $primary-display;
     flex-direction: column;
     padding-top: 30px;
   }
@@ -26,23 +26,23 @@
 }
 
 .location {
-  margin: 5px 0px $medium-size 0px;
+  margin: 5px 0px $big-size 0px;
 }
 
 .tag-div {
-  display: flex;
-  gap: 10px;
-  top: 12px;
+  display: $primary-display;
+  gap: $the-smallest-size;
+  top: $small-size;
   position: relative;
 }
 
 .tag {
-  display: flex;
-  justify-content: center;
+  display: $primary-display;
+  justify-content: $primary-position;
   width: fit-content;
-  border-radius: 15px;
-  padding: 5px 25px;
-  font-size: $medium-size;
+  border-radius: $medium-size;
+  padding: 5px $the-biggest-size;
+  font-size: $big-size;
   color: $primary-color;
   background-color: $secondary-color;
 }
@@ -56,39 +56,38 @@
 }
 
 .second-container {
-  display: flex;
+  display: $primary-display;
   justify-content: flex-end;
-  gap: 15px;
+  gap: $medium-size;
 }
 
 .host-name {
   color: $secondary-color;
-  font-size: $primary-font-size;
-  font-size: $primary-font-size;
+  font-size: 24px;
 }
 
 .host-picture {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  position: relative;
+  position: $secondary-position;
 }
 
 .star-container {
-  display: flex;
+  display: $primary-display;
   justify-content: flex-end;
-  gap: 12px;
-  position: relative;
-  top: $medium-size;
+  gap: $small-size;
+  position: $secondary-position;
+  top: $big-size;
 }
 
 .hidden-content-list {
   flex-direction: column;
   background-color: $tertiary-color;
-  padding: $medium-size;
+  padding: $big-size;
   gap: 8px;
   position: $secondary-position;
-  top: 10px;
+  top: $the-smallest-size;
 }
 
 //  Ecran : ordinateur portable.
@@ -119,7 +118,7 @@
   }
 
   .hidden-content-list {
-    li{
+    li {
       font-size: 18px;
     }
   }
@@ -134,9 +133,9 @@
   }
 
   .second-container {
-    gap: 10px;
+    gap: $the-smallest-size;
     top: 22px;
-    position: relative;
+    position: $secondary-position;
   }
 
   .location,
@@ -170,7 +169,7 @@
     gap: 7px;
   }
   .star {
-    font-size: 15px;
+    font-size: $medium-size;
   }
 }
 
@@ -197,19 +196,19 @@
 
   .house-presentation-container {
     h1 {
-      font-size: $medium-size;
+      font-size: $big-size;
     }
   }
 
   .location,
   .host-name {
-    font-size: 15px;
+    font-size: $medium-size;
   }
 
   .tag {
-    font-size: 10px;
-    padding: 7px 12px;
-    align-items: center;
+    font-size: $the-smallest-size;
+    padding: 7px $small-size;
+    align-items: $primary-position;
     width: max-content;
   }
 
@@ -222,7 +221,7 @@
     justify-content: flex-start;
     position: static;
     top: 7px;
-    position: relative;
+    position: $secondary-position;
     gap: 5px;
   }
   .star {

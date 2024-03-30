@@ -8,13 +8,13 @@
   justify-content: space-around;
   row-gap: 50px;
   padding: 70px 45px;
-  border-radius: 25px;
+  border-radius: $the-biggest-size;
 }
 
 .card {
   display: $primary-display;
   flex-direction: column;
-  border-radius: 10px;
+  border-radius: $the-smallest-size;
   background-color: $primary-color;
   width: 250px;
   height: 250px;
@@ -25,7 +25,7 @@
 
 .house-cover {
   height: $full-size;
-  border-radius: 10px 10px 0 0;
+  border-radius: $the-smallest-size $the-smallest-size 0 0;
   object-fit: cover;
 }
 
@@ -34,8 +34,8 @@
   position: absolute;
   z-index: 2;
   bottom: 0px;
-  left: 15px;
-  font-size: $medium-size;
+  left: $medium-size;
+  font-size: $big-size;
   font-weight: bold;
 }
 
@@ -51,7 +51,7 @@
   }
 
   .card-text {
-    font-size: $secondary-font;
+    font-size: $small-size;
   }
 }
 
@@ -60,7 +60,7 @@
   .card-container {
     grid-template-columns: 130px 130px;
     padding: 70px 0px 0px 0px;
-    padding: 50px 10px;
+    padding: 50px $the-smallest-size;
   }
   .card {
     width: 130px;
@@ -76,7 +76,7 @@
     gap: 30px;
     background-color: $primary-color;
     padding: 0px;
-    margin: $medium-size 0px;
+    margin: $big-size 0px;
   }
 
   .card {

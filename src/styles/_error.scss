@@ -1,9 +1,9 @@
 @import "./variables.scss";
 
 .error-main-div {
-  display: flex;
+  display: $primary-display;
   flex-direction: column;
-  align-items: center;
+  align-items: $primary-position;
   margin-top: $primary-margin;
 }
 
@@ -12,13 +12,13 @@
 }
 
 .error-status-div {
-  display: flex;
-  text-align: center;
+  display: $primary-display;
+  text-align: $primary-position;
 }
 
 .error-status {
   color: $secondary-color;
-  margin: $primary-margin 0px;
+  margin: $primary-margin $non-existent;
   font-size: 29px;
 }
 
@@ -54,7 +54,7 @@
   .error-status {
     font-size: 18px;
     font-size: $big-size;
-    margin: $secondary-margin 0px;
+    margin: $secondary-margin $non-existent;
   }
 
   .get-back-to-home-page {

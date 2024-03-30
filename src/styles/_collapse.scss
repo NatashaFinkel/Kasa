@@ -11,7 +11,7 @@
   gap: 5px;
   width: 80%;
   justify-content: space-between;
-  margin: 40px 0px;
+  margin: 40px $non-existent;
 }
 
 details {
@@ -36,7 +36,7 @@ details {
   }
   p {
     background-color: $tertiary-color;
-    margin: 7px 0px;
+    margin: 7px $non-existent;
     padding: $big-size;
     font-size: 22px;
   }
@@ -53,7 +53,7 @@ details[open] summary .fa-chevron-up {
 //  Ecran : ordinateur portable.
 @media screen and (max-width: 1024px) {
   .collapse-container {
-    margin: $big-size 0px;
+    margin: $big-size $non-existent;
   }
 
   details {
@@ -70,7 +70,7 @@ details[open] summary .fa-chevron-up {
 //  Ecran : tablette.
 @media screen and (max-width: 768px) {
   .collapse-container {
-    margin: $the-smallest-size 0px;
+    margin: $the-smallest-size $non-existent;
   }
 
   details {
@@ -89,7 +89,7 @@ details[open] summary .fa-chevron-up {
 
     p {
       font-size: $medium-big-size;
-      position: relative;
+      position: $secondary-position;
     }
 
     p,

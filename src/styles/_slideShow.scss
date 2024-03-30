@@ -1,11 +1,11 @@
 @import "./variables.scss";
 
 .slideShow {
-  display: flex;
-  position: relative;
+  display: $primary-display;
+  position: $secondary-position;
 }
 .slideShow-img {
-  width: 100%;
+  width: $full-size;
   height: 450px;
   border-radius: $the-biggest-size;
   object-fit: fill;

@@ -14,10 +14,10 @@ body {
 }
 
 .header-display {
-  display: flex;
+  display: $primary-display;
   justify-content: space-between;
   margin-bottom: 35px;
-  align-items: center;
+  align-items: $primary-position;
 }
 
 .logo-kasa {
@@ -30,8 +30,8 @@ ul {
   display: $primary-display;
   flex-direction: row;
   justify-content: flex-end;
-  margin: 0px;
-  padding: 0px;
+  margin: $non-existent;
+  padding: $non-existent;
 }
 
 li {
@@ -96,8 +96,8 @@ footer {
   }
 
   ul {
-    padding: 0px;
-    margin: 0px;
+    padding: $non-existent;
+    margin: $non-existent;
     gap: $the-smallest-size;
   }
 

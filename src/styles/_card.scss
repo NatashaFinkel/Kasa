@@ -1,7 +1,7 @@
 @import "./variables.scss";
 
 .card-container {
-  margin: 43px 0px 50px;
+  margin: 43px $non-existent 50px;
   background-color: $tertiary-color;
   display: grid;
   grid-template-columns: 250px 250px 250px;
@@ -33,7 +33,7 @@
   color: $primary-color;
   position: absolute;
   z-index: 2;
-  bottom: 0px;
+  bottom: $non-existent;
   left: $medium-size;
   font-size: $big-size;
   font-weight: bold;
@@ -59,7 +59,6 @@
 @media screen and (max-width: 768px) {
   .card-container {
     grid-template-columns: 130px 130px;
-    padding: 70px 0px 0px 0px;
     padding: 50px $the-smallest-size;
   }
   .card {
@@ -75,8 +74,8 @@
     flex-direction: column;
     gap: 30px;
     background-color: $primary-color;
-    padding: 0px;
-    margin: $big-size 0px;
+    padding: $non-existent;
+    margin: $big-size $non-existent;
   }
 
   .card {

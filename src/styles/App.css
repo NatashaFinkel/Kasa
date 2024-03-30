@@ -47,15 +47,6 @@ a {
   font-size: 34px;
 }
 
-.full-width {
-  width: 100%;
-}
-
-.centered {
-  display: flex;
-  justify-content: center;
-}
-
 footer {
   display: flex;
 }
@@ -105,4 +96,6 @@ footer {
   .footer-display {
     min-height: 110px;
   }
-}/*# sourceMappingURL=App.css.map */
+}
+
+/*# sourceMappingURL=App.css.map */

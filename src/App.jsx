@@ -1,8 +1,7 @@
 import React from "react";
-import "./styles/_app.scss";
-
 import AppRouter from "./AppRouter";
 import AppFooter from "./components/Footer.jsx";
+import "./styles/_app.scss";
 
 const App = () => {
   return (

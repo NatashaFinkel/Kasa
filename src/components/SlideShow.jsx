@@ -1,9 +1,7 @@
 import React from "react";
 import { useState } from "react";
-
 import leftArrow from "../assets/left-arrow.png";
 import rightArrow from "../assets/right-arrow.png";
-
 import "../styles/_slideShow.scss";
 
 const Slideshow = ({ pictures }) => {

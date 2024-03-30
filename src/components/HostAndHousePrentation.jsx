@@ -3,8 +3,8 @@ import { useParams } from "react-router-dom";
 import jsonData from "../houses.json";
 import Rating from "./Rating";
 import Tags from "./Tags";
-
 import "../styles/_hostAndHousePresentation.scss";
+
 function HostAndHousePresentation() {
   const { id } = useParams();
   const additionalDetails = jsonData.find((e) => e.id === id);

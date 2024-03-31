@@ -1,14 +1,15 @@
 import React from "react";
-
-import AboutBanner from "../components/AboutBanner.jsx";
+import Banner from "../components/Banner.jsx";
+import aboutBannerImg from "../assets/about-banner.png";
 import Collapse from "../components/Collapse.jsx";
+import "../styles/_banner.scss";
 import "../styles/_collapse.scss";
 
 function About() {
   return (
     <div>
       <div>
-        <AboutBanner />
+     <Banner image={aboutBannerImg} />
       </div>
 
       <div className="about-page-main-content">

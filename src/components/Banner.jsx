@@ -1,9 +1,9 @@
 import React from "react";
 import "../styles/_banner.scss";
 
-function Banner({ image, ...props }) {
+function Banner(props) {
   return (
-    <img src={image} className={props.className} alt="Bannière" />
+    <img src={props.image} className="banner" alt="Bannière" />
   );
 }
 

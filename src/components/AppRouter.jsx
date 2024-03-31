@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import HeaderLogo from "./components/HeaderLogo";
-import NavBar from "./components/NavBar";
-import Home from "./pages/Home";
-import House from "./pages/House";
-import About from "./pages/About";
-import Error from "./pages/Error";
+import HeaderLogo from "./HeaderLogo";
+import NavBar from "./NavBar";
+import Home from "../pages/Home";
+import House from "../pages/House";
+import About from "../pages/About";
+import Error from "../pages/Error";
 
 const AppRouter = () => {
   return (

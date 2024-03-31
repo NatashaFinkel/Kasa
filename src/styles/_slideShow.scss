@@ -52,7 +52,7 @@
 //  Ecran : téléphone portable.
 @media screen and (max-width: 425px) {
   .slideShow-img {
-    height: 250px;
+    height: $the-biggest-element-size;
   }
   .left-arrow,
   .right-arrow {

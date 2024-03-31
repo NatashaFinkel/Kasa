@@ -10,7 +10,7 @@ body {
 }
 
 .main-padding {
-  padding: $body-padding;
+  padding:  45px 60px 0px;
 }
 
 .header-display {
@@ -59,7 +59,7 @@ footer {
 .footer-display {
   width: $full-size;
   min-height: 72px;
-  box-sizing: $border-box;
+  box-sizing: border-box;
   margin: 0 auto;
   position: $secondary-position;
   bottom: 0;

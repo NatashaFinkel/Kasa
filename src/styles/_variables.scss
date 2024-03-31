@@ -15,10 +15,6 @@ $primary-text-color: #000000;
 // Paddings
 $body-padding: 45px 60px 0px;
 
-//Margins
-$primary-margin: 130px;
-$secondary-margin: 100px;
-
 // Width
 $full-size: 100%;
 $non-existent: 0px;
@@ -29,9 +25,12 @@ $border-box: border-box;
 // Sizes
 $the-smallest-size: 10px;
 $small-size: 12px;
-
 $medium-size: 15px;
 $medium-big-size: 17px;
-
 $big-size: 20px;
 $the-biggest-size: 25px;
+
+$small-element-size: 100px;
+$medium-element-size: 130px;
+$big-element-size: 170px;
+$the-biggest-element-size: 250px;

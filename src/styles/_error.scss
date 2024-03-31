@@ -4,7 +4,7 @@
   display: $primary-display;
   flex-direction: column;
   align-items: $primary-position;
-  margin-top: $primary-margin;
+  margin-top: $medium-element-size;
 }
 
 .error-img {
@@ -18,12 +18,12 @@
 
 .error-status {
   color: $secondary-color;
-  margin: $primary-margin $non-existent;
+  margin: $medium-element-size $non-existent;
   font-size: 29px;
 }
 
 .get-back-to-home-page {
-  margin-bottom: $primary-margin;
+  margin-bottom: $medium-element-size;
 }
 
 .get-back-to-home-page {
@@ -35,7 +35,7 @@
 //  Ecran : ordinateur portable.
 @media screen and (max-width: 1024px) {
   .error-img {
-    height: 100px;
+    height: $small-element-size;
   }
 }
 
@@ -54,11 +54,11 @@
   .error-status {
     font-size: 18px;
     font-size: $big-size;
-    margin: $secondary-margin $non-existent;
+    margin: $small-element-size $non-existent;
   }
 
   .get-back-to-home-page {
-    margin-bottom: $secondary-margin;
+    margin-bottom: $small-element-size;
 
     a {
       font-size: $big-size;

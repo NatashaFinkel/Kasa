@@ -81,7 +81,7 @@ footer {
 @media screen and (max-width: 768px) {
   .logo-kasa {
     height: 40px;
-    width: 130px;
+    width: $medium-element-size;
   }
 
   .header-display a {

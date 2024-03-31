@@ -7,6 +7,11 @@ import House from "../pages/House";
 import About from "../pages/About";
 import Error from "../pages/Error";
 
+//  Ce fichier permet 
+//  de naviguer entre 
+//  les différentes pages 
+//  de l'application.
+
 const AppRouter = () => {
   return (
     <Router>

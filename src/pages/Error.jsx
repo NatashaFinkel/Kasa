@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Image from "../components/Image";
 import errorImg from "../assets/error-404-img.png";
-import ErrorStatus from "../components/ErrorStatus";
+import "../styles/_error.scss";
 
 function Error() {
   return (
@@ -10,8 +10,11 @@ function Error() {
       <div>
         <Image src={errorImg} className="error-img" alt="Erreur 404" />
       </div>
-      <div>
-        <ErrorStatus />
+
+      <div className="error-status-div">
+        <p className="error-status">
+          Oups! La page que vous demandez n'existe pas.
+        </p>
       </div>
 
       <div className="get-back-to-home-page">

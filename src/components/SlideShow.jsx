@@ -47,14 +47,14 @@ const Slideshow = ({ pictures }) => {
         src={rightArrow}
         className="right-arrow"
         onClick={nextPicture}
-        alt="flèche"
+        alt="flèche vers la droite"
       />
 
       <Image
         src={leftArrow}
         className="left-arrow"
         onClick={previousPicture}
-        alt="flèche"
+        alt="flèche vers la gauche"
       />
 
       <div className="picture-counter">

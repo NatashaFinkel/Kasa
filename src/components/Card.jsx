@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Houses from "../houses.json";
 import "../styles/_card.scss";
 
-//  Au clic sur la card, l'utilisateur est redirigé 
+//  Au clic sur la card, l'utilisateur est redirigé
 //  sur la route correspondant à l'appartement choisi.
 //  Celui-ci est localisé grâce à son id (car unique).
 
@@ -15,16 +15,16 @@ function Card() {
     <div className="card-container">
       {Houses.map((house) => (
         <Link key={house.id} to={`houses/${house.id}`}>
-        <div className="card" key={house.id}>
-          <img
-            src={house.cover}
-            className="house-cover"
-            alt="Appartement"
-          ></img>
-          <div>
-            <p className="card-text">{house.title}</p>
+          <div className="card" key={house.id}>
+            <img
+              src={house.cover}
+              className="house-cover"
+              alt="Appartement"
+            ></img>
+            <div>
+              <p className="card-text">{house.title}</p>
+            </div>
           </div>
-        </div>
         </Link>
       ))}
     </div>

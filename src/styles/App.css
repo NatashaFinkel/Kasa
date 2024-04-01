@@ -65,34 +65,42 @@ footer {
     height: 48px;
     width: 160px;
   }
+
   .header-display a {
     font-size: 30px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .logo-kasa {
     height: 40px;
     width: 130px;
   }
+
   .header-display a {
     font-size: 20px;
   }
 }
+
 @media screen and (max-width: 425px) {
   .main-padding {
     padding: 25px;
   }
+
   ul {
     padding: 0px;
     margin: 0px;
     gap: 10px;
   }
+
   .header-display a {
     font-size: 12px;
   }
+
   nav a {
     text-transform: uppercase;
   }
+
   .footer-display {
     min-height: 110px;
   }

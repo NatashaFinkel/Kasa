@@ -7,7 +7,7 @@ function Home() {
   return (
     <div>
       <div>
-      <Banner image={homeBannerImg} />
+        <Banner image={homeBannerImg} />
       </div>
 
       <div>

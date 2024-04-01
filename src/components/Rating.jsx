@@ -2,7 +2,6 @@ import React from "react";
 import "../styles/_variables.scss";
 
 const Rating = ({ rating }) => {
-  
   // Ceci crée un tableau contenant 5 éléments.
   const starsArray = Array(5).fill(0);
 

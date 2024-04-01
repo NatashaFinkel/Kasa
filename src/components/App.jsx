@@ -5,7 +5,7 @@ import "../styles/_app.scss";
 
 //  Ce fichier contient la mise
 //  en page globale de l'application
-//  (les composants qui sont communs 
+//  (les composants qui sont communs
 //  à toutes les pages).
 
 const App = () => {

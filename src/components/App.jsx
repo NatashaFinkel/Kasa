@@ -1,6 +1,7 @@
 import React from "react";
 import AppRouter from "./AppRouter";
-import AppFooter from "./Footer.jsx";
+import Image from "./Image.jsx";
+import FooterImg from "../assets/footer.png";
 import "../styles/_app.scss";
 
 //  Ce fichier contient la mise
@@ -16,7 +17,7 @@ const App = () => {
       </div>
 
       <footer>
-        <AppFooter />
+        <Image src={FooterImg} className="footer-display" alt="Footer" />
       </footer>
     </div>
   );

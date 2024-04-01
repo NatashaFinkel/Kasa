@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import HeaderLogo from "./HeaderLogo";
+import Image from "./Image";
+import logoKasa from "../assets/logo-kasa.png";
 import NavBar from "./NavBar";
 import Home from "../pages/Home";
 import House from "../pages/House";
@@ -16,7 +17,7 @@ const AppRouter = () => {
   return (
     <Router>
       <div className="header-display">
-        <HeaderLogo />
+        <Image src={logoKasa} className="logo-kasa" alt="Logo" />
         <NavBar />
       </div>
       <Routes>

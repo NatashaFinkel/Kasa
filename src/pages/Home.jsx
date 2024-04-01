@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../components/Banner.jsx";
+import Image from "../components/Image.jsx";
 import homeBannerImg from "../assets/home-banner.png";
 import Card from "../components/Card.jsx";
 
@@ -7,7 +7,11 @@ function Home() {
   return (
     <div>
       <div>
-        <Banner image={homeBannerImg} />
+        <Image
+          src={homeBannerImg}
+          className="banner"
+          alt="Bannière de la page d'accueil"
+        />
       </div>
 
       <div>

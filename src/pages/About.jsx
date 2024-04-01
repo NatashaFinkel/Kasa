@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../components/Banner.jsx";
+import Image from "../components/Image.jsx";
 import aboutBannerImg from "../assets/about-banner.png";
 import Collapse from "../components/Collapse.jsx";
 import "../styles/_banner.scss";
@@ -9,7 +9,11 @@ function About() {
   return (
     <div>
       <div>
-        <Banner image={aboutBannerImg} />
+        <Image
+          src={aboutBannerImg}
+          className="banner"
+          alt="Bannière de la page About"
+        />
       </div>
 
       <div className="about-page-main-content">

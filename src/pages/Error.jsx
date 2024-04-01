@@ -1,20 +1,21 @@
 import React from "react";
-import ErrorIMG from "../components/ErrorIMG";
+import { Link } from "react-router-dom";
+import Image from "../components/Image";
+import errorImg from "../assets/error-404-img.png";
 import ErrorStatus from "../components/ErrorStatus";
-import GetBackFromErrorPage from "../components/BackFromErrorPage";
 
 function Error() {
   return (
     <div className="error-main-div">
       <div>
-        <ErrorIMG />
+        <Image src={errorImg} className="error-img" alt="Erreur 404" />
       </div>
       <div>
         <ErrorStatus />
       </div>
 
       <div className="get-back-to-home-page">
-        <GetBackFromErrorPage />
+        <Link to="/">Retourner sur la page d’accueil</Link>;
       </div>
     </div>
   );

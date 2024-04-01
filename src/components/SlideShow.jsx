@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import Image from "./Image";
 import leftArrow from "../assets/left-arrow.png";
 import rightArrow from "../assets/right-arrow.png";
 import "../styles/_slideShow.scss";
@@ -13,7 +14,12 @@ const Slideshow = ({ pictures }) => {
   } else if (allPictures === 1) {
     return (
       <div>
-        <img src={pictures[current]} alt="Le logement" />
+        <Image
+          src={pictures[current]}
+          className="slideShow-img"
+          alt="Le logement"
+        />
+
         <div className="picture-counter">
           {current + 1}/{allPictures}
         </div>
@@ -31,28 +37,31 @@ const Slideshow = ({ pictures }) => {
 
   return (
     <div className="slideShow">
-      <img
+      <Image
         src={pictures[current]}
-        alt="Le logement"
         className="slideShow-img"
+        alt="Le logement"
       />
-      <img
+
+      <Image
         src={rightArrow}
         className="right-arrow"
         onClick={nextPicture}
         alt="flèche"
-      ></img>
+      />
 
-      <img
+      <Image
         src={leftArrow}
         className="left-arrow"
         onClick={previousPicture}
         alt="flèche"
-      ></img>
+      />
+
       <div className="picture-counter">
         {current + 1}/{allPictures}
       </div>
     </div>
   );
 };
+
 export default Slideshow;

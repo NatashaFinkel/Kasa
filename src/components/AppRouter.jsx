@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Image from "./Image";
 import logoKasa from "../assets/logo-kasa.png";
 import NavBar from "./NavBar";
-import Home from "../pages/Home";
-import House from "../pages/House";
-import About from "../pages/About";
-import Error from "../pages/Error";
+import HomePage from "../pages/HomePage";
+import HousePreview from "../pages/HousePreview";
+import AboutPage from "../pages/AboutPage";
+import ErrorPage from "../pages/ErrorPage";
 
 //  Ce fichier permet
 //  de naviguer entre
@@ -21,10 +21,10 @@ const AppRouter = () => {
         <NavBar />
       </div>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/houses/:id" element={<House />} />
-        <Route path="/about" element={<About />} />
-        <Route path="*" element={<Error />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/houses/:id" element={<HousePreview />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Router>
   );

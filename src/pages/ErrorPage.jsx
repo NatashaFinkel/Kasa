@@ -4,7 +4,7 @@ import Image from "../components/Image";
 import errorImg from "../assets/error-404-img.png";
 import "../styles/_error.scss";
 
-function Error() {
+function ErrorPage() {
   return (
     <div className="error-main-div">
       <div>
@@ -24,4 +24,4 @@ function Error() {
   );
 }
 
-export default Error;
+export default ErrorPage;

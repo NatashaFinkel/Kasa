@@ -5,7 +5,7 @@ import Collapse from "../components/Collapse.jsx";
 import "../styles/_banner.scss";
 import "../styles/_collapse.scss";
 
-function About() {
+function AboutPage() {
   return (
     <div>
       <div>
@@ -55,4 +55,4 @@ function About() {
   );
 }
 
-export default About;
+export default AboutPage;

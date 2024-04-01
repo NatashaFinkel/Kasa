@@ -3,7 +3,7 @@ import Image from "../components/Image.jsx";
 import homeBannerImg from "../assets/home-banner.png";
 import Card from "../components/Card.jsx";
 
-function Home() {
+function HomePage() {
   return (
     <div>
       <div>
@@ -21,4 +21,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomePage;

@@ -1,17 +1,17 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import jsonData from "../houses.json";
-import Error from "./Error";
+import ErrorPage from "./ErrorPage";
 import Slideshow from "../components/SlideShow";
 import Collapse from "../components/Collapse";
 import HostAndHousePresentation from "../components/HostAndHousePrentation";
 
-const House = () => {
+const HousePreview = () => {
   const { id } = useParams();
   const additionalDetails = jsonData.find((e) => e.id === id);
 
   if (!additionalDetails) {
-    return <Error />;
+    return <ErrorPage />;
   }
 
   return (
@@ -37,4 +37,4 @@ const House = () => {
   );
 };
 
-export default House;
+export default HousePreview;

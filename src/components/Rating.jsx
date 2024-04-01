@@ -1,6 +1,13 @@
 import React from "react";
 import "../styles/_variables.scss";
 
+//  Dans la méthode map(), UNDERSCORE
+//  représente un argument que l’on
+//  choisit de ne pas utiliser
+//  (il correspond à l’élément actuel du tableau).
+//  Cet élément est obligatoire en tant qu'argument
+//  dans map(), donc on utilisera uniquement l’index.
+
 const Rating = ({ rating }) => {
   // Ceci crée un tableau contenant 5 éléments.
   const starsArray = Array(5).fill(0);

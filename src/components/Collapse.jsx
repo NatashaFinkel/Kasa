@@ -19,7 +19,8 @@ function Collapse({
 
       {/* On vérifie si le hiddenContent est objet.
           Si c'est le cas, les éléments sont affichés 
-          sous forme de liste.  */}
+          sous forme de liste. 
+          Sinon, ils seront dans une balise <p>.  */}
       {
         typeof hiddenContent === "object" ? (
           <ul className={text}>

@@ -7,7 +7,16 @@ import Tags from "./Tags";
 import "../styles/_hostAndHousePresentation.scss";
 
 function HostAndHousePresentation() {
+
+  /* useParams() récupère la 
+valeur de l'id qui est 
+spécifié dans l'URL actuel.  */
   const { id } = useParams();
+
+  /* On cherche dans le fichier .json 
+un élément dont l'id est strictement 
+identique à la valeur qu'on vient de 
+récupérer avec useParams().  */
   const additionalDetails = jsonData.find((e) => e.id === id);
 
   return (
@@ -22,6 +31,9 @@ function HostAndHousePresentation() {
       <div className="host-presentation-container">
         <div className="two-side-by-side-containers second-container">
           <div className="host-name" alt="identité du propriétaire">
+            
+            {/* Ici, on accède à la sous-propriété "name" 
+            de la propriété "host" de chaque objet du fichier .json  */}
             <p> {additionalDetails.host.name}</p>
           </div>
           <Image

@@ -7,7 +7,16 @@ import Collapse from "../components/Collapse";
 import HostAndHousePresentation from "../components/HostAndHousePrentation";
 
 const HousePreview = () => {
+
+  /* useParams() récupère la 
+  valeur de l'id qui est 
+  spécifié dans l'URL actuel.  */
   const { id } = useParams();
+
+  /* On cherche dans le fichier .json 
+  un élément dont l'id est strictement 
+  identique à la valeur qu'on vient de 
+  récupérer avec useParams().  */
   const additionalDetails = jsonData.find((e) => e.id === id);
 
   if (!additionalDetails) {

@@ -6,6 +6,12 @@ import rightArrow from "../assets/right-arrow.png";
 import "../styles/_slideShow.scss";
 
 const Slideshow = ({ pictures }) => {
+
+//  useState() sert à déclarer 
+//  la variable (ici, current) dont la
+//  valeur initiale (ici, zéro) peut être 
+//  mise à jour (ici, grâce à setCurrent() ).
+
   const [current, setCurrent] = useState(0);
   const allPictures = pictures.length;
 
@@ -26,6 +32,12 @@ const Slideshow = ({ pictures }) => {
       </div>
     );
   }
+
+  //  Le symbole "?" vérifie une condition
+  //  et retourne une valeur en fonction de cette condition.
+
+  //  Le symbole ":" sert à séparer les différentes valeurs à 
+  //  retourner selon si la condition est vraie ou fausse.
 
   const previousPicture = () => {
     setCurrent(current === 0 ? allPictures - 1 : current - 1);

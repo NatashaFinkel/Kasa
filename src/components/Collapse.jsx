@@ -12,7 +12,7 @@ function Collapse({
   text,
 }) {
   return (
-    < details className={additionalDetails} >
+    <details className={additionalDetails}>
       <summary className={additionalDetailsContainer}>
         {title} <i className="fa-solid fa-chevron-up"></i>
       </summary>

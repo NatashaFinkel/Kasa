@@ -21,9 +21,9 @@ const AppRouter = () => {
         <NavBar />
       </div>
       <Routes>
-        <Route exact path="/" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/Kasa" element={<HomePage />} />
-        <Route path="/houses/:id" element={<HousePreview />} />
+        <Route path="/Kasa/houses/:id" element={<HousePreview />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>

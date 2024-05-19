@@ -21,7 +21,7 @@ const AppRouter = () => {
         <NavBar />
       </div>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route exact path="/home" element={<HomePage />} />
         <Route path="/houses/:id" element={<HousePreview />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="*" element={<ErrorPage />} />

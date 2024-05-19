@@ -1,13 +1,12 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://natashafinkel.github.io/Kasa/",
   "private": true,
+  "homepage": "https://NatashaFinkel.github.io/Kasa/home",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "gh-pages": "^6.1.1",
     "node-sass": "^7.0.3",
     "npm": "^10.4.0",
     "react": "^18.2.0",
@@ -45,6 +44,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/plugin-transform-private-property-in-object": "^7.23.4",
+    "gh-pages": "^6.1.1",
     "sass": "^1.72.0"
   }
 }

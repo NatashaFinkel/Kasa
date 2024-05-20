@@ -15,15 +15,14 @@ import ErrorPage from "../pages/ErrorPage";
 
 const AppRouter = () => {
   return (
-    <Router>
+    <Router basename="/Kasa">
       <div className="header-display">
         <Image src={logoKasa} className="logo-kasa" alt="Logo" />
         <NavBar />
       </div>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/Kasa" element={<HomePage />} />
-        <Route path="/Kasa/houses/:id" element={<HousePreview />} />
+        <Route path="/houses/:id" element={<HousePreview />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>

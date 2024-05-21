@@ -15,10 +15,13 @@ const Slideshow = ({ pictures }) => {
   const [current, setCurrent] = useState(0);
   const allPictures = pictures.length;
 
+  let pictureCounter = document.getElementsByClassName("picture-counter")[0];
+
   if (allPictures === 0) {
     return "";
   } else if (allPictures === 1) {
-    return (
+pictureCounter.style.display = "none";
+   /*  return (
       <div>
         <Image
           src={pictures[current]}
@@ -26,7 +29,9 @@ const Slideshow = ({ pictures }) => {
           alt="Le logement"
         />
       </div>
-    )
+    ) */
+
+
   } else if (allPictures >= 2) {
 
     //  Le symbole "?" vérifie une condition
@@ -42,6 +47,8 @@ const Slideshow = ({ pictures }) => {
     const nextPicture = () => {
       setCurrent(current === allPictures - 1 ? 0 : current + 1);
     };
+
+    pictureCounter.style.display = "block";
 
     return (
       <div className="slideShow">

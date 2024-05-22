@@ -88,11 +88,6 @@ details[open] summary .fa-chevron-up {
       font-size: $medium-big-size;
       position: $secondary-position;
     }
-
-    p,
-    .hidden-content-list {
-      width: 77%;
-    }
   }
 
   .hidden-content-list li {
@@ -113,11 +108,8 @@ details[open] summary .fa-chevron-up {
 
     p {
       font-size: $medium-size;
-
       width: 94%;
       padding: 10px;
-      background-color: hotpink;
-  
     }
   }
 }

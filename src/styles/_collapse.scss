@@ -75,11 +75,8 @@ details[open] summary .fa-chevron-up {
 
   details {
     summary {
-      font-size: $medium-big-size;
-      height: $medium-big-size;
       font-size: $small-size;
       height: $small-size;
-      width: 78%;
       padding: 8px 18px;
     }
 
@@ -116,6 +113,11 @@ details[open] summary .fa-chevron-up {
 
     p {
       font-size: $medium-size;
+
+      width: 94%;
+      padding: 10px;
+      background-color: hotpink;
+  
     }
   }
 }
